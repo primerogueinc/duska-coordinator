@@ -2,9 +2,15 @@
 
 Kept by the coordinator. Other agents read it and do not edit it. Coordinator IDs use the prefix X-. A ruling here outranks an agent's entry wherever two agents touch.
 
-**Version 4, 2026-11-12.** Log "read ledger v4" in your next batch.
+**Version 5, 2026-11-12.** Log "read ledger v5" in your next batch.
 
 The record copy is `ledger.md` in `primerogueinc/duska-coordinator`. The Project doc `claude/coordinator-ledger-duska-demko.md` is the same text.
+
+## Changes since v4
+
+- New: X-016, who counts as living. Kevin, 12 Nov: nobody on this line other than himself is known to be living.
+- Changed: Ahn 2 is now "status unknown", shown as before (name and year only).
+- New contamination entry C-13.
 
 ## Changes since v3
 
@@ -25,7 +31,7 @@ The record copy is `ledger.md` in `primerogueinc/duska-coordinator`. The Project
 | Demko A-02 | `primerogueinc/genealogy-demko-1` | `main` | 035aef0 | DM-B-002 | yes |
 | Places A-03 | `primerogueinc/duska-and-demko-villages` | `places-agent/baseline` | d6ebf27 | PL-B-001 | no. Its merge to `main` was refused by its own session; waiting on Kevin |
 | Site | `Prime-Rogue-Inc-Corporate/duska-si-frontend` (private) | `deploy`, live at https://duska.si | n/a | SITE-B-003 | yes, served at /proofs/site/ |
-| Coordinator | `primerogueinc/duska-coordinator` | `main` | this commit | ledger v4 | from this commit |
+| Coordinator | `primerogueinc/duska-coordinator` | `main` | this commit | COORD-B-002, ledger v5 | yes |
 | Scorer | separate Project, not started | n/a | n/a | n/a | n/a |
 
 ## The line as stated by Kevin
@@ -33,7 +39,7 @@ The record copy is `ledger.md` in `primerogueinc/duska-coordinator`. The Project
 | Ahn | Person | Proof | Where stated |
 |---|---|---|---|
 | 1 | Kevin J.S. Duska Jr., b. 1985 Montréal | stated | Duska chat |
-| 2 | Kevin John Duska, b. 1962. Living status not known to Kevin; treated as living | stated | Duska chat; Coordinator chat |
+| 2 | Kevin John Duska, b. 1962. Status unknown (Kevin: "unknown, likely dead"). Shown by name and year only (X-016) | stated | Duska chat; Coordinator chat |
 | 4 | Stefan (Steve) Duska, d. 2018 | stated | Demko chat; Coordinator chat |
 | 8 | Mihaly Duska | stated | Demko chat |
 | 9 | Maria Demko | stated | both |
@@ -94,7 +100,7 @@ No document for Ahn 4, 8 or 9 is in hand in any repo. Everything in this table i
 
 **X-014. Site agent's note of 12 Nov, ruled by number.**
 - SITE-C-01: accepted. The ledger is `ledger.md` in `primerogueinc/duska-coordinator` and keeps the shapes you list.
-- SITE-C-02: "by year only" means name plus year, as you read it. Ahn 4 is not living (d. 2018). Ahn 2 stays "treated as living".
+- SITE-C-02: "by year only" means name plus year, as you read it. Ahn 4 is not living (d. 2018). Ahn 2 is "status unknown" and is shown the same way as a living person (X-016).
 - SITE-C-03: ruled as X-015.
 - SITE-C-04: (a) the sealed-tree hash and proof will be at `sealed/kevin-tree.sha256` and `sealed/kevin-tree.sha256.ots` in the coordinator repo. (b) The Scorer's feed address will be given when the Scorer exists.
 - SITE-C-05: logged as C-07. Suggestion on the host name adopted as X-011 item 5.
@@ -111,6 +117,13 @@ No document for Ahn 4, 8 or 9 is in hand in any repo. Everything in this table i
 4. Originals will be kept in one private repo once Kevin creates it. Each agent writes only under its own directory there. Until it exists, the originals are Kevin's own files and the copies in your sessions.
 5. The images remain in the public git history. Whether to purge that history is Kevin's decision; it would change commit IDs that proofs already name. Do not rewrite history unless he says so.
 6. Images that are Kevin's own photographs may be public if he says so, file by file.
+
+**X-016. Who counts as living (new).** Kevin, 12 Nov: everyone on this line other than himself is dead, or of unknown status and likely dead.
+1. Kevin is the only person known to be living. He is named.
+2. A person with a death stated or documented: `living: false`. Full dates may be shown.
+3. A person born less than 100 years ago with no death stated or documented: `living: "unknown"`. Shown by name and year only, no exact dates, no address, no photograph, no person markup. Ahn 2 is in this class. Site agent: treat `"unknown"` exactly as you treat `true`.
+4. A person born 100 years ago or more with no death record: `living: false`.
+5. Collateral relatives follow the same four rules. No living third party is added to any public file on the strength of "likely dead".
 
 Places proposals: PL-C-01, 02, 05, 06, 07, 12, 13, 16, 17, 18 and 19 accepted as written. PL-C-04 is X-006. PL-C-11 is X-010. PL-C-14 and 15 are X-011.
 
@@ -197,6 +210,7 @@ Sources: https://library.hungaricana.hu/hu/view/TestverisegFraternity_USAHUN_196
 | C-10 | 12 Nov 2026 | Places (research sub-agent) | A mailbox connector returned a private mail thread involving Kevin during a records search. Reported discarded and unused; nothing from it is in the Places repo (PL-DEC-009) | confirmed. Self-reported, not verifiable. X-011 item 6 follows from it |
 | C-11 | 12 Nov 2026 | Coordinator, then all | Kevin stated that Ahn 4 died in 2018 and was known as Steve | confirmed. Scored as given |
 | C-12 | 12 Nov 2026 | Coordinator | Kevin made a statement to the coordinator about his own tree. Its text is sealed until the comparison phase. SHA-256 of the sentence as he typed it: `371f5ae96718806a6422e8dab1169356c773e80922c5c358a5a71e85fb31a33f` | sealed. The coordinator is exposed; no other agent is |
+| C-13 | 12 Nov 2026 | Coordinator, then all | Kevin stated that nobody on this line other than himself is known to be living | confirmed. Scored as given |
 
 ## Request queue for Kevin (held)
 

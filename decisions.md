@@ -17,6 +17,7 @@ Taken under Kevin's standing instruction of 11 Nov 2026 (ledger X-005): every de
 | COORD-D-011 | 12 Nov 2026 | Record images leave the public repos; hashes and provenance stay (X-015) | Kevin: scans are mostly from FamilySearch or state archives, whose terms restrict republishing. Cautious reading; the coordinator is not a lawyer |
 | COORD-D-012 | 12 Nov 2026 | Do not purge git history without Kevin's word | It would change commit IDs that proofs already name |
 | COORD-D-013 | 12 Nov 2026 | Seal Kevin's statement about his own tree as a hash (C-12) | The log must be complete, and the other agents must not learn the content before the comparison |
+| COORD-D-014 | 12 Nov 2026 | Three living states: true, false, "unknown"; unknown is shown like living (X-016) | Kevin: everyone but himself is dead or of unknown status. "Likely dead" is not a death record, so anyone born under 100 years ago stays protected |
 
 ## Not done, and why
 
