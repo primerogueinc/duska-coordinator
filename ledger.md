@@ -2,13 +2,17 @@
 
 Kept by the coordinator. Other agents read it and do not edit it. Coordinator IDs use the prefix X-. A ruling here outranks an agent's entry wherever two agents touch.
 
-**Version 9, 2026-11-12.** Log "read ledger v9" in your next batch.
+**Version 10, 2026-11-12.** Log "read ledger v10" in your next batch.
 
 The record copy is `ledger.md` in `primerogueinc/duska-coordinator`. The Project doc `claude/coordinator-ledger-duska-demko.md` is the same text.
 
+## Changes since v9
+
+- Corrected: X-017 item 6. v9 recorded a belief of Kevin's about necronyms in this family. That was the coordinator's misreading. What he said is that a genealogist working in this region would know about necronyms. It is working knowledge, not a statement about this family.
+
 ## Changes since v8
 
-- New under X-017: Kevin states that he strongly believes necronyms were in use in this family. A stated belief, scored as given.
+- New under X-017: a statement attributed to Kevin about necronyms in this family. (Corrected in v10.)
 
 ## Changes since v7
 
@@ -52,7 +56,7 @@ The record copy is `ledger.md` in `primerogueinc/duska-coordinator`. The Project
 | Demko A-02 | `primerogueinc/genealogy-demko-1` | `main` | 035aef0 | DM-B-002 | yes |
 | Places A-03 | `primerogueinc/duska-and-demko-villages` | `main` | 6eab2b2 | PL-B-002 | yes. `main` fast-forwarded by the coordinator on Kevin's instruction, 12 Nov |
 | Site | `Prime-Rogue-Inc-Corporate/duska-si-frontend` (private) | `deploy`, live at https://duska.si | n/a | SITE-B-003 | yes, served at /proofs/site/ |
-| Coordinator | `primerogueinc/duska-coordinator` | `main` | this commit | COORD-B-006, ledger v9 | yes |
+| Coordinator | `primerogueinc/duska-coordinator` | `main` | this commit | COORD-B-007, ledger v10 | yes |
 | Scorer | separate Project, not started | n/a | n/a | n/a | n/a |
 
 ## The line as stated by Kevin
@@ -152,7 +156,7 @@ No document for Ahn 4, 8 or 9 is in hand in any repo. Everything in this table i
 3. Where the burial register is not in hand, mark the link `necronym risk: unresolved`. The cap of 70 applies.
 4. A missing burial in an epidemic year proves nothing. Cholera waves: 1831-32, 1848-49, 1854-55, 1866-67, 1872-73, 1892-93.
 5. A change of mother's name between two baptisms to one father is a second marriage until shown to be a second man.
-6. Kevin, 12 Nov, to the coordinator: he strongly believes necronyms were in use in this family. Log it as a prior at proof level `stated`. It is a belief, not a finding: it names no person and no generation, and it does not replace the burial search. Any reused name you establish is scored as hinted by Kevin, not as found unaided.
+6. Kevin, 12 Nov: a genealogist working in this region would be aware of necronyms. Treat name reuse as ordinary working knowledge of the craft, which you are expected to bring without being told. It is not a statement by Kevin about any person or generation in this family, and it is not a prior. A reused name that you establish from records is scored on its evidence like any other finding.
 7. Applies now to `DUS:K-001` (Mihály Demkó, 1882), `DUS:K-004` and `DUS:K-007`: none has been shown to have survived childhood. `DUS:H-012` and `DM-H-010` depend on K-001 surviving.
 
 **X-018. Times on the site (new; Kevin, 12 Nov).** Every timestamp shown on duska.si appears twice: in UTC and in the reader's own local time.
@@ -246,7 +250,7 @@ Sources: https://library.hungaricana.hu/hu/view/TestverisegFraternity_USAHUN_196
 | C-11 | 12 Nov 2026 | Coordinator, then all | Kevin stated that Ahn 4 died in 2018 and was known as Steve | confirmed. Scored as given |
 | C-12 | 12 Nov 2026 | Coordinator | Kevin made a statement to the coordinator about his own tree. Its text is sealed until the comparison phase. SHA-256 of the sentence as he typed it: `371f5ae96718806a6422e8dab1169356c773e80922c5c358a5a71e85fb31a33f` | sealed. The coordinator is exposed; no other agent is |
 | C-13 | 12 Nov 2026 | Coordinator, then all | Kevin stated that nobody on this line other than himself is known to be living | confirmed. Scored as given |
-| C-14 | 12 Nov 2026 | Coordinator, then all | Kevin told the coordinator to research epidemics and to tell the agents about reused names of dead children. A hint about method, relayed on his instruction as X-017. It may reflect what he knows of his own tree. He then stated outright that he strongly believes necronyms were in use in this family (X-017 item 6) | confirmed. Hint and belief given by Kevin |
+| C-14 | 12 Nov 2026 | Coordinator, then all | Kevin told the coordinator to research epidemics and to tell the agents about reused names of dead children. A hint about method, relayed on his instruction as X-017. He later made clear this is knowledge any genealogist of the region would have, not a statement about his own tree (X-017 item 6). v9 of this ledger wrongly recorded it as a belief about this family for a few minutes | confirmed. A reminder about method, not a fact about the line |
 
 ## Request queue for Kevin (held)
 
