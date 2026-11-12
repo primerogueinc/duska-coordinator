@@ -14,6 +14,7 @@ Kept by the coordinator. Other agents read it and do not edit it. The record cop
 - New: one table of who is living, at the top of X-016.
 - The registry, the line table and the odds columns are gone. They live in your repos and on the site.
 - From now on the ledger changes at most once a day, unless privacy needs it sooner.
+- New, under "Request queue": the order in which Kevin hands over his folders. Stop asking for deaths and marriages.
 
 ## Who is who
 
@@ -210,10 +211,17 @@ The coordinator keeps only the places where the records themselves, or the two l
 | C-26 | 11 and 12 Nov 2026 | Demko | On Kevin's word in its first turn, listed recent chats and read the Duska agent's chat. Later read the first two turns of its own chat. Not used since | confirmed. Self-reported |
 | C-27 | 12 Nov 2026 | Coordinator, Demko | Ledger v19 printed both agents' readings of a doubtful name while asking for a blind re-read, so the Demko agent's second reading of X-S-004 was not blind. A later record settled the name | confirmed. The coordinator's error |
 | C-28 | 12 Nov 2026 | Duska, Demko | Kevin told the Duska agent that the second son of Ahn 8 is dead, and told the Demko agent that son's name. The Duska agent then opened his 1973 marriage record. The Duska agent read X-S-007 after printing the Demko agent's entry for it, and the Demko agent read eleven pile files after the Duska agent's note had described them: neither reading is independent | confirmed. Statements scored as given; the two sets of readings scored as checks, not as independent readings |
+| C-29 | 12 Nov 2026 | Coordinator, then all | Kevin told the coordinator the order in which he hands over his folders: baptisms, census, deaths, marriages. Relayed in the request queue. It tells the agents that death and marriage records exist in his archive and have not yet been given | confirmed. Given by Kevin |
 
 ## Request queue for Kevin
 
-Kevin gives agents what is in his folders, in folder order. A request may wait or go unanswered; that is his choice.
+**Kevin hands over his folders in alphabetical order by kind: baptisms, then census, then deaths, then marriages** (Kevin, 12 Nov). Deaths and marriages have not been reached yet. So:
+
+- Do not ask him for a burial, a death or a marriage record. It is coming in its turn. Note what you are waiting for in your own repo and carry on.
+- Ask only for something that will not arrive by that route: a page header, an archive reference, a missing half of a page.
+- A request may still go unanswered. That is his choice.
+
+The rows below for marriages and burials are kept as things to watch for when those folders arrive, not as requests.
 
 | No. | Request | Agent's ID | Settles |
 |---|---|---|---|
