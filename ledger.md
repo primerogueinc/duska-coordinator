@@ -2,9 +2,14 @@
 
 Kept by the coordinator. Other agents read it and do not edit it. Coordinator IDs use the prefix X-. A ruling here outranks an agent's entry wherever two agents touch.
 
-**Version 10, 2026-11-12.** Log "read ledger v10" in your next batch.
+**Version 11, 2026-11-12.** Log "read ledger v11" in your next batch.
 
 The record copy is `ledger.md` in `primerogueinc/duska-coordinator`. The Project doc `claude/coordinator-ledger-duska-demko.md` is the same text.
+
+## Changes since v10
+
+- New: X-019, intake of Kevin's folder `AAAA Unclassified`. It goes to the Demko agent. Read it before the folder arrives.
+- New contamination entries C-15 and C-16.
 
 ## Changes since v9
 
@@ -56,7 +61,7 @@ The record copy is `ledger.md` in `primerogueinc/duska-coordinator`. The Project
 | Demko A-02 | `primerogueinc/genealogy-demko-1` | `main` | 035aef0 | DM-B-002 | yes |
 | Places A-03 | `primerogueinc/duska-and-demko-villages` | `main` | 6eab2b2 | PL-B-002 | yes. `main` fast-forwarded by the coordinator on Kevin's instruction, 12 Nov |
 | Site | `Prime-Rogue-Inc-Corporate/duska-si-frontend` (private) | `deploy`, live at https://duska.si | n/a | SITE-B-003 | yes, served at /proofs/site/ |
-| Coordinator | `primerogueinc/duska-coordinator` | `main` | this commit | COORD-B-007, ledger v10 | yes |
+| Coordinator | `primerogueinc/duska-coordinator` | `main` | this commit | COORD-B-009, ledger v11 | yes |
 | Scorer | separate Project, not started | n/a | n/a | n/a | n/a |
 
 ## The line as stated by Kevin
@@ -164,6 +169,17 @@ No document for Ahn 4, 8 or 9 is in hand in any repo. Everything in this table i
 2. Every agent: store times in your data as ISO 8601 in UTC with a trailing `Z`. Where only a date is known, store the date and do not invent a time.
 3. A Bitcoin block time is the block's own timestamp, shown the same way and labelled as block time.
 
+**X-019. The unclassified folder (new; Kevin, 12 Nov).** Kevin has a folder named `AAAA Unclassified`. He says it is mixed: material for the Demko line, material for other lines, and material from lines outside this experiment. There are no more Demko folders.
+1. The whole folder goes to the Demko agent, in parts if it is large. The Demko agent is the intake for it. Kevin does not sort it first: his sorting would be a prior (X-004).
+2. Every file is archived as usual (original name, SHA-256, size, pixels) and given a `route` with a confidence and a reason taken from the document itself: `demko`, `duska`, `shared`, `other-line` or `unknown`.
+3. `demko`: process in full.
+4. `duska` or `shared`: write an abstract only, and name the file in your note to the Duska agent in the same batch. The Duska agent takes it under X-012 and makes its own transcription before reading yours.
+5. `other-line`: record the file name, SHA-256 and one line saying what it is (kind of record, year, place, surnames). Nothing more: no full transcription, no image in the public repo, nobody added to any tree. List these in `data/out_of_scope.json`. They wait until Kevin opens a line for them.
+6. `unknown`: abstract it, send any place name to the Places agent, and attach it to nobody.
+7. Before every push: anything about Kevin himself, or about a person born less than 100 years ago with no death stated or documented, is held with its hash only (X-015 item 2, X-016).
+8. Kevin's remark that the folder holds important Demko documents is logged as C-16. Which documents those are is for the agent to work out from the records. Do not raise a confidence because a file came from this folder.
+9. Findings from this folder are scored like any other. The folder name carries no claim about any line.
+
 Places proposals: PL-C-01, 02, 05, 06, 07, 12, 13, 16, 17, 18 and 19 accepted as written. PL-C-04 is X-006. PL-C-11 is X-010. PL-C-14 and 15 are X-011.
 
 Agent IDs: Duska A-01, Demko A-02, Places A-03.
@@ -251,6 +267,8 @@ Sources: https://library.hungaricana.hu/hu/view/TestverisegFraternity_USAHUN_196
 | C-12 | 12 Nov 2026 | Coordinator | Kevin made a statement to the coordinator about his own tree. Its text is sealed until the comparison phase. SHA-256 of the sentence as he typed it: `371f5ae96718806a6422e8dab1169356c773e80922c5c358a5a71e85fb31a33f` | sealed. The coordinator is exposed; no other agent is |
 | C-13 | 12 Nov 2026 | Coordinator, then all | Kevin stated that nobody on this line other than himself is known to be living | confirmed. Scored as given |
 | C-14 | 12 Nov 2026 | Coordinator, then all | Kevin told the coordinator to research epidemics and to tell the agents about reused names of dead children. A hint about method, relayed on his instruction as X-017. He later made clear this is knowledge any genealogist of the region would have, not a statement about his own tree (X-017 item 6). v9 of this ledger wrongly recorded it as a belief about this family for a few minutes | confirmed. A reminder about method, not a fact about the line |
+| C-15 | 12 Nov 2026 | Coordinator | Kevin made a second statement to the coordinator. Its text is sealed until the comparison phase. SHA-256 of the passage as he typed it: `cccb77ce2d3362e52992fb22a71bdd3def2d86d816b03072f8b686ee8501d962` | sealed. The coordinator is exposed; no other agent is |
+| C-16 | 12 Nov 2026 | Coordinator, then all | Kevin said his folder `AAAA Unclassified` holds important Demko documents among material from other lines (X-019) | confirmed. Given by Kevin |
 
 ## Request queue for Kevin (held)
 
