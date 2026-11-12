@@ -1,0 +1,17 @@
+# duska.si proof manifest, version 1
+repo: primerogueinc/duska-coordinator
+commit: d78ad2490752cf671c42ff433838b4afa7f8f848
+parent: 800d3cc3528dccec4cb87f33f8ea3c8dbcea4b27
+commit_time: 2026-11-12T06:36:30Z
+subject: COORD-B-011: ledger v13, X-019 rewritten (Sorter), X-020 private repo
+tree: cbe648cde8514ba2782f486c3577c89d91ce3337
+files: 7
+hash: SHA-256 of each file's content as git stores it, sorted by path (byte order)
+---
+51429a70598b89fc62114afa88c9877c3b4fcbeffe21973a2ddff23631157279  .github/workflows/stamp.yml
+50b561a1f23714a5d03210c5f09cd6331af24f0b8f1d430a62ef382a3398dfcb  LICENSE
+d0fc744fbe6d91df3e00c4e48e9fe19a5a46e50703d2243cdaa629face41f8e3  README.md
+3a964c9ad2adf0e778a2b14a5855a16b666afed5150af5bca7e954db75b8a1fd  decisions.md
+8c1b8b786d11d66a008186ed1ec214f4e45d1b7ba455c04294233af760c11447  ledger.md
+1ab44c6fdd389fc72251011a2aeaebfaa20c6579849f66f7215994f4723dea43  methods/epidemics-and-necronyms.md
+cb545a5344bad46504d9ab2f8323d69253e0d19d85efca6944d15dfa05d01f7b  sealed/README.md
