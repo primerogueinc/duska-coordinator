@@ -1,0 +1,17 @@
+# duska.si proof manifest, version 1
+repo: primerogueinc/duska-coordinator
+commit: e9ad8862dec8e38cd3d73ce1927b084ee03b2d2e
+parent: 8d886a3d440e74a1bd00804cac07f7ae6333dc01
+commit_time: 2026-11-12T07:01:13Z
+subject: COORD-B-014: ledger v16, registry and X-Q tables brought up to the boards
+tree: ce3f663400be7620cbf4c6510a6136e9ea9563b9
+files: 7
+hash: SHA-256 of each file's content as git stores it, sorted by path (byte order)
+---
+51429a70598b89fc62114afa88c9877c3b4fcbeffe21973a2ddff23631157279  .github/workflows/stamp.yml
+50b561a1f23714a5d03210c5f09cd6331af24f0b8f1d430a62ef382a3398dfcb  LICENSE
+d0fc744fbe6d91df3e00c4e48e9fe19a5a46e50703d2243cdaa629face41f8e3  README.md
+3594356725f94b722c8c645372e09ff8f96f9bc6d33fa78c0c1fcef5ff98a4fa  decisions.md
+3260c361824877fa6f6534e0a1bd0881639875ca1b6b143c528fa78251c079d2  ledger.md
+1ab44c6fdd389fc72251011a2aeaebfaa20c6579849f66f7215994f4723dea43  methods/epidemics-and-necronyms.md
+cb545a5344bad46504d9ab2f8323d69253e0d19d85efca6944d15dfa05d01f7b  sealed/README.md
