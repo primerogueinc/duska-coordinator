@@ -1,0 +1,16 @@
+# duska.si proof manifest, version 1
+repo: primerogueinc/duska-coordinator
+commit: e1d336597b00064ac24e899daf9b455d727cb466
+parent: 9d4a471ae05b33255b845704c3ee0fb86155fd84
+commit_time: 2026-11-12T06:06:20Z
+subject: COORD-B-002: ledger v5, X-016 who counts as living
+tree: 5ef2354b0641fef96225b3d5e2650ee529ffe289
+files: 6
+hash: SHA-256 of each file's content as git stores it, sorted by path (byte order)
+---
+51429a70598b89fc62114afa88c9877c3b4fcbeffe21973a2ddff23631157279  .github/workflows/stamp.yml
+50b561a1f23714a5d03210c5f09cd6331af24f0b8f1d430a62ef382a3398dfcb  LICENSE
+d0fc744fbe6d91df3e00c4e48e9fe19a5a46e50703d2243cdaa629face41f8e3  README.md
+5e1b595d8c4b3f2297075bf254a869c72432ac186cdef3514ec53af3212b1155  decisions.md
+68bfee16bebd442bc5ff346225392d806e017d720a72a1ff2f9ec37cabc203b1  ledger.md
+089c8465dacf48de089239d6b1f0d434ed09a996a375444136d992498a5707c8  sealed/README.md
