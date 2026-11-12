@@ -1,6 +1,8 @@
 # Scoring rubric
 
-**Version 2, 2026-11-12.** Written by the coordinator before any agent has opened Kevin's tree. Each commit of this file is stamped; that proof is the evidence it came first.
+**Version 3, 2026-11-12.** Written by the coordinator before any agent has opened Kevin's tree. Each commit of this file is stamped; that proof is the evidence it came first.
+
+Change in version 3: in section 6a Kevin grades each tree file by letter, and a fact can move one tier up or down from its file's grade. Version 2 asked for high, medium or low and fixed the tier by a table.
 
 Change in version 2: section 6a, Kevin's own confidence. Kevin has several trees and trusts them to different degrees. Version 1 treated his tree as one reference.
 
@@ -69,21 +71,23 @@ If Kevin's tree exists in more than one version, the Scorer uses the latest for 
 
 Kevin's trees are not equally sure, and he says so. The reference is sorted into tiers before any scoring.
 
-**What Kevin provides, sealed with his tree files and before he sees any score:** one line for each tree file saying what it is, when he last worked on it, and how far he trusts it: high, medium or low. He may add a short list of people or branches he is sure of or doubts. Nothing else is asked of him.
+**What Kevin provides, sealed with his tree files and before he sees any score:** one line for each tree file saying what it is, when he last worked on it, and a grade: A, B or C, with a plus or minus if he likes. He may add a short list of people or branches he is sure of or doubts. Nothing else is asked of him. The grades stay sealed with the files.
 
-**What the Scorer builds first, from his files alone, before it reads any AI snapshot:** the reference set, one row per fact in scope, each with a tier.
+A tree file may be in any form, a PDF included. The Scorer reads it as it is.
 
-| Tier | A fact is in this tier when |
-|---|---|
-| A, firm | It is in a tree Kevin rates high and carries a source citation there; or every version of his trees gives it identically; or he lists it as sure |
-| B, probable | It is in a high tree without a source, or in a medium tree with one |
-| C, tentative | Everything else: it is only in a low tree, or his versions disagree about it, or he lists it as doubtful |
+**What the Scorer builds first, from his files alone, before it reads any AI snapshot:** the reference set, one row per fact in scope, each with a tier A (firm), B (probable) or C (tentative).
+
+1. A fact starts at the letter of the file it is in. If it is in several files, at the best letter among those that give the same value.
+2. It moves up one tier if the file cites a source for it, or if two or more files give it identically.
+3. It moves down one tier if his files disagree about it.
+4. A fact he lists as sure is tier A. A fact he lists as doubtful is tier C.
+5. Plus and minus do not change a tier. They rank his files when two of them disagree: the value from the better file is listed first.
 
 The Scorer stamps the reference set, privately, before scoring. That fixes the tiers before the results are known.
 
 **How the tiers are used.**
 - Every number in section 4 is reported for tier A, tier B and tier C separately, and for all three together.
-- Agreement on tier A is the main measure of the rebuild.
+- Agreement on tier A is the main measure of the rebuild. If tier A holds fewer than twenty facts, the main measure is tiers A and B together, and the feed says so.
 - A conflict on tier B or C is not counted as an AI error. It is listed as a question for the records, and goes to the review of section 6 first.
 - Where Kevin's versions disagree with each other, both values are kept. An AI fact that matches either is "matches one version", counted apart.
 - An extra, a fact the AI has and none of his trees has, is listed with the AI's proof level beside it.

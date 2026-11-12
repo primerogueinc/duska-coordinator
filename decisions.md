@@ -48,6 +48,7 @@ Taken under Kevin's standing instruction of 11 Nov 2026 (ledger X-005): every de
 | COORD-D-042 | 12 Nov 2026 | Fast-forwarded the Places repo's `main` to PL-B-011 (440c400) after checking the six batches for names from the lines outside the experiment, images and account details | Its session refuses to merge without Kevin's words each time; Kevin's instruction "merge all" stands; six batches were unstamped and off the site |
 | COORD-D-043 | 12 Nov 2026 | Rubric version 2: three tiers from Kevin's own confidence, fixed and stamped before any scoring | Kevin asked how to test against trees he trusts to different degrees. Tiers set after seeing results would be fitted to them |
 | COORD-D-044 | 12 Nov 2026 | Logged Kevin's hypothesis to the Places agent as C-31, and sealed a one-line note on how it bears on C-15 | The log must be complete; saying in public what the sealed statement is about would itself be a leak |
+| COORD-D-045 | 12 Nov 2026 | Rubric version 3: Kevin grades each tree file by letter; a fact moves a tier up on a cited source or on agreement between files, and down where files disagree; a floor of twenty facts for tier A as the main measure. His grades are sealed with the files and are not recorded here | Kevin grades by letter and says none of his trees is firm. Under version 2 tier A could have been empty |
 
 ## Not done, and why
 
