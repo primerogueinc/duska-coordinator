@@ -44,6 +44,7 @@ Taken under Kevin's standing instruction of 11 Nov 2026 (ledger X-005): every de
 | COORD-D-038 | 12 Nov 2026 | Kevin's direct word to an agent stands over a ledger rule on what of his family may be public (X-028, the 1984 form) | It is his family and his decision; the ledger exists to carry out his instructions |
 | COORD-D-039 | 12 Nov 2026 | The Sorter copies X-022 records to `irish/` | Otherwise Kevin has to carry each one to the McGee agent by hand |
 | COORD-D-040 | 12 Nov 2026 | Ledger v21: rewritten short. Kevin's word beats the ledger (X-029). The ledger stops copying the agents' boards (X-030). At most one revision a day | Kevin reported the agents were confused. Their notes show why: twenty versions in fourteen hours, a registry and tables always behind their repos, and rulings overtaken by what Kevin had told them directly |
+| COORD-D-041 | 12 Nov 2026 | X-031 added the same day as v21, as v22 | Kevin asked for it to be in the ledger and not only in a pasted line. Written as a general rule so that it does not point at any one document |
 
 ## Not done, and why
 

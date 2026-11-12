@@ -2,7 +2,12 @@
 
 Kept by the coordinator. Other agents read it and do not edit it. The record copy is `ledger.md` in `primerogueinc/duska-coordinator`.
 
-**Version 21, 2026-11-12.** Log "read ledger v21" in your next batch.
+**Version 22, 2026-11-12.** Log "read ledger v22" in your next batch.
+
+## Changes since v21
+
+- New: X-031, a method rule for the Duska and Demko agents: say what kind of object a document is before relying on what it says. One new contamination entry, C-30. Nothing else changed.
+- If you have not yet read v21, read its change list below as well: it is the one that matters.
 
 ## Changes since v20
 
@@ -13,7 +18,7 @@ Kept by the coordinator. Other agents read it and do not edit it. The record cop
 - Every rule keeps its number. Each is restated once, as it stands now, without its history. The history is in git.
 - New: one table of who is living, at the top of X-016.
 - The registry, the line table and the odds columns are gone. They live in your repos and on the site.
-- From now on the ledger changes at most once a day, unless privacy needs it sooner.
+- From now on the ledger changes at most once a day, unless privacy needs it sooner or Kevin asks for a change.
 - New, under "Request queue": the order in which Kevin hands over his folders. Stop asking for deaths and marriages.
 
 ## Who is who
@@ -119,6 +124,14 @@ What follows from the status:
 2. Your note to the coordinator needs three things only, newest first, each a line or two: a new statement by Kevin; an exposure for the contamination log; a question that needs a ruling under X-029 item 5. Anything else belongs in your repo.
 3. X-S numbers: the coordinator assigns one only when two agents hold the same record and their readings differ. Otherwise cite each other's document IDs.
 
+**X-031. What kind of object is it? (new; Kevin, 12 Nov)** For the Duska and Demko agents.
+1. For every document on the direct line that is not a plain register strip, and for any document whose kind you know only from one of Kevin's labels, work out what kind of object it is from its form alone, before relying on what it says.
+2. Look at the printed form, the layout, the language, the stamps, seals and signatures, and the paper. Look up what the possible kinds of record looked like at that date and place. Say which one it matches and why, and what does not fit.
+3. Then say who made it, when, and where a paper of that kind would have been kept.
+4. Log this per document, in a field of its own, with the sources you compared against. Catalogues, archive guides and published examples are fine; X-011 still applies.
+5. If the answer changes what you have been calling a document, say so plainly in your batch and re-rule every hypothesis that leaned on the old name.
+6. This is ordinary source criticism. It is a rule about how to look, not a statement about any document.
+
 ## Questions
 
 A question groups rival hypotheses across boards. The odds are on the boards and on the site, not here.
@@ -212,6 +225,7 @@ The coordinator keeps only the places where the records themselves, or the two l
 | C-27 | 12 Nov 2026 | Coordinator, Demko | Ledger v19 printed both agents' readings of a doubtful name while asking for a blind re-read, so the Demko agent's second reading of X-S-004 was not blind. A later record settled the name | confirmed. The coordinator's error |
 | C-28 | 12 Nov 2026 | Duska, Demko | Kevin told the Duska agent that the second son of Ahn 8 is dead, and told the Demko agent that son's name. The Duska agent then opened his 1973 marriage record. The Duska agent read X-S-007 after printing the Demko agent's entry for it, and the Demko agent read eleven pile files after the Duska agent's note had described them: neither reading is independent | confirmed. Statements scored as given; the two sets of readings scored as checks, not as independent readings |
 | C-29 | 12 Nov 2026 | Coordinator, then all | Kevin told the coordinator the order in which he hands over his folders: baptisms, census, deaths, marriages. Relayed in the request queue. It tells the agents that death and marriage records exist in his archive and have not yet been given | confirmed. Given by Kevin |
+| C-30 | 12 Nov 2026 | Coordinator, then Duska and Demko | Kevin suggested to the coordinator that the agents check what kind of record a document is by its form. Relayed as X-031, as a general rule that names no document | confirmed. A hint about method, given by Kevin |
 
 ## Request queue for Kevin
 
