@@ -1,6 +1,8 @@
 # Scoring rubric
 
-**Version 4, 2026-11-12.** Written by the coordinator before any agent has opened Kevin's tree. Each commit of this file is stamped; that proof is the evidence it came first.
+**Version 5, 2026-11-12.** Written by the coordinator before any agent has opened Kevin's tree. Each commit of this file is stamped; that proof is the evidence it came first.
+
+Change in version 5, three clarifications in section 1, asked for by the Scorer before it read any AI repository: people who are living or of unknown status; exact dates; a parent link is two facts.
 
 Change in version 4, three clarifications asked for by the Scorer before it built anything: each tree file is sealed on its own; section 6 no longer says "the latest for each person", which disagreed with section 6a; equal grades are ranked by the date last worked on.
 
@@ -12,19 +14,28 @@ Change in version 2: section 6a, Kevin's own confidence. Kevin has several trees
 
 The AI tree is the merged `people` data of the Duska and Demko repos, joined on the Ahnentafel number, at a stamped commit of each. Every stamped batch is a snapshot.
 
-In scope: Ahn 1, 2, 4, 8 and 9, and every ancestor of Ahn 8 and Ahn 9. Out of scope: Ahn 5 and her ancestors, Ahn 3 and hers, and all living people other than Ahn 1.
+In scope: Ahn 1, 2, 4, 8 and 9, and every ancestor of Ahn 8 and Ahn 9. Out of scope: Ahn 5 and her ancestors, Ahn 3 and hers, and every other person known to be living.
+
+**People who are living or whose status is unknown.** Ahn 1 and Ahn 2 stay in scope whatever their status. The status of each person is the one in the table under X-016 in the coordinator's ledger. For a person who is living or unknown, only the facts the agents are allowed to publish are scored: identity, each parent link, and the year and the city of an event. An exact date, or a place finer than a city, has the outcome **withheld**. A withheld fact is outside every numerator and denominator and is counted in a line of its own. If the status of a person changes in the ledger, later snapshots are scored on the new status and earlier rows are not changed.
+
+A spouse who is out of scope (Ahn 3, Ahn 5) is matched by name only.
 
 A **fact** is one of these, for one person in scope:
 
 | Fact | Counts as a match when |
 |---|---|
 | Identity: a named person at this Ahnentafel position | given name and surname agree, allowing spelling and language variants (Mihály, Michael, Michal) |
-| Parent link: this person is the child of that father and that mother | both parents are the same people |
-| Birth or baptism: year | same year. Scored separately: exact date |
+| Parent link, father | the father is the same person |
+| Parent link, mother | the mother is the same person |
+| Birth or baptism: year | same year |
 | Birth: place | same village or parish under any of its names |
 | Marriage: year, place, spouse | as above; spouse by identity |
 | Death or burial: year, place | as above |
 | Rite or denomination | same |
+
+**Two facts, not one.** The link to the father and the link to the mother are scored each on its own. If the AI tree names one parent and that one agrees, that is one match and one missing.
+
+**Exact dates.** For every event the year is the fact in the headline numbers. The exact date is scored as well, by the same outcomes, but outside the headline: it has its own coverage and agreement, reported beside them. A date within one year is a near match on the year and a conflict on the exact date.
 
 Brothers, sisters and other relatives are scored the same way in a second table, "family groups", and stay out of the headline numbers.
 

@@ -50,6 +50,7 @@ Taken under Kevin's standing instruction of 11 Nov 2026 (ledger X-005): every de
 | COORD-D-044 | 12 Nov 2026 | Logged Kevin's hypothesis to the Places agent as C-31, and sealed a one-line note on how it bears on C-15 | The log must be complete; saying in public what the sealed statement is about would itself be a leak |
 | COORD-D-045 | 12 Nov 2026 | Rubric version 3: Kevin grades each tree file by letter; a fact moves a tier up on a cited source or on agreement between files, and down where files disagree; a floor of twenty facts for tier A as the main measure. His grades are sealed with the files and are not recorded here | Kevin grades by letter and says none of his trees is firm. Under version 2 tier A could have been empty |
 | COORD-D-046 | 12 Nov 2026 | Sealed Kevin's first tree file by its own hash, as reported by the Scorer. Rubric version 4: three clarifications | Kevin has one PDF, not an archive. The Scorer found two sections of the rubric that disagreed and asked before building |
+| COORD-D-047 | 12 Nov 2026 | Rubric version 5: living and unknown people are scored only on what the agents may publish, the rest is "withheld"; exact dates have their own pair of numbers; father link and mother link are separate facts | Asked by the Scorer before it read any AI repository. Counting facts the agents are forbidden to publish as missing would punish them for obeying the privacy rule |
 
 ## Not done, and why
 
