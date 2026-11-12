@@ -2,9 +2,14 @@
 
 Kept by the coordinator. Other agents read it and do not edit it. Coordinator IDs use the prefix X-. A ruling here outranks an agent's entry wherever two agents touch.
 
-**Version 12, 2026-11-12.** Log "read ledger v12" in your next batch.
+**Version 13, 2026-11-12.** Log "read ledger v13" in your next batch.
 
 The record copy is `ledger.md` in `primerogueinc/duska-coordinator`. The Project doc `claude/coordinator-ledger-duska-demko.md` is the same text.
+
+## Changes since v12
+
+- **Rewritten: X-019.** The Demko agent is no longer the intake for Kevin's unclassified folder. A separate Sorter, outside this Project, sorts it into a private repo. Line agents take only their own piles. Demko agent: if the folder has already been given to you, stop, process nothing further from it, and say so in your note to the coordinator.
+- New: X-020, the private repo and who may read what in it.
 
 ## Changes since v11
 
@@ -65,7 +70,8 @@ The record copy is `ledger.md` in `primerogueinc/duska-coordinator`. The Project
 | Demko A-02 | `primerogueinc/genealogy-demko-1` | `main` | 035aef0 | DM-B-002 | yes |
 | Places A-03 | `primerogueinc/duska-and-demko-villages` | `main` | 6eab2b2 | PL-B-002 | yes. `main` fast-forwarded by the coordinator on Kevin's instruction, 12 Nov |
 | Site | `Prime-Rogue-Inc-Corporate/duska-si-frontend` (private) | `deploy`, live at https://duska.si | n/a | SITE-B-003 | yes, served at /proofs/site/ |
-| Coordinator | `primerogueinc/duska-coordinator` | `main` | this commit | COORD-B-010, ledger v12 | yes |
+| Coordinator | `primerogueinc/duska-coordinator` | `main` | this commit | COORD-B-011, ledger v13 | yes |
+| Sorter | `primerogueinc/kevin-js-duska-jr-genealogy-private` (private) | separate Project | n/a | not started | yes, proofs private |
 | Scorer | separate Project, not started | n/a | n/a | n/a | n/a |
 
 ## The line as stated by Kevin
@@ -173,19 +179,22 @@ No document for Ahn 4, 8 or 9 is in hand in any repo. Everything in this table i
 2. Every agent: store times in your data as ISO 8601 in UTC with a trailing `Z`. Where only a date is known, store the date and do not invent a time.
 3. A Bitcoin block time is the block's own timestamp, shown the same way and labelled as block time.
 
-**X-019. The unclassified folder (new; Kevin, 12 Nov).** Kevin has a folder named `AAAA Unclassified`. He says it is mixed: material for the Demko line, material for other lines, and material from lines outside this experiment. There are no more Demko folders.
-1. The whole folder goes to the Demko agent, in parts if it is large. The Demko agent is the intake for it. Kevin does not sort it first: his sorting would be a prior (X-004).
-2. Every file is given a `route` with a confidence and a reason taken from the document itself: `demko`, `duska`, `shared`, `irish`, `maternal` or `unknown`. Every file except `maternal` is archived as usual (original name, SHA-256, size, pixels).
-3. `demko`: process in full.
-4. `duska` or `shared`: write an abstract only, and name the file in your note to the Duska agent in the same batch. The Duska agent takes it under X-012 and makes its own transcription before reading yours.
-5. `irish`: Kevin's paternal grandmother (Ahn 5) and her ancestors. Kevin, 12 Nov: her line is Irish and some of its documents are in this folder.
-   - A document that also names a Duska, such as the marriage of Ahn 4 and Ahn 5 or the baptism of their child, is `shared`, not `irish`. It can carry Stefan's age, birthplace and parents, so route it to the Duska agent at once.
-   - Anything else on her line is parked: file name, SHA-256 and one line saying what it is (kind of record, year, place, surnames). No full transcription, no image in the public repo, nobody added to a tree. List these in `data/parked_irish.json`. They wait for an Irish-line agent.
-5a. `maternal`: Kevin's mother's side. Kevin, 12 Nov: ignore it. Record the SHA-256 and the route only, under a neutral label (`maternal-001`, `maternal-002`). No file name, no description, no names, no image. This keeps the record of what was received complete without publishing anything about that side.
-6. `unknown`: abstract it, send any place name to the Places agent, and attach it to nobody.
-7. Before every push: anything about Kevin himself, or about a person born less than 100 years ago with no death stated or documented, is held with its hash only (X-015 item 2, X-016).
-8. Kevin's remark that the folder holds important Demko documents is logged as C-16. Which documents those are is for the agent to work out from the records. Do not raise a confidence because a file came from this folder.
-9. Findings from this folder are scored like any other. The folder name carries no claim about any line.
+**X-019. The unclassified folder (rewritten in v13; Kevin, 12 Nov).** Kevin has a folder named `AAAA Unclassified`. It is mixed: material for the Demko line, for the Duska line, for his paternal grandmother's line, and for his mother's side. There are no more Demko folders. He does not want the line agents to see the material that is not theirs.
+1. A Sorter agent, working outside this Project, receives the folder. It publishes nothing. It sorts every file into a pile in the private repo (X-020) by what the document itself shows, and records its reason.
+2. The Demko agent takes `to-demko/` and `to-both/`. The Duska agent takes `to-duska/` and `to-both/`. Nothing else.
+3. Archive what you take in your own repo as usual, with the SHA-256 from the pile's `MANIFEST.json`, and log the commit of the private repo you read.
+4. The pile a file arrived in is the "sorter's label", proof level `prior` (X-004). It raises no confidence. If you think a file is in the wrong pile, say so in your note to the coordinator and process it anyway if it bears on your line.
+5. A record in `to-both/` is worked by both line agents independently. Transcribe before reading the other's reading (X-012).
+6. Any record that names a Duska goes to `to-duska/`, including the marriage of Ahn 4 and Ahn 5 and the baptisms of their children.
+7. The public privacy checks still apply to everything you take (X-013, X-015 item 2, X-016).
+8. Kevin's remark that the folder holds important Demko documents is logged as C-16. Which documents those are is for the Demko agent to work out. Do not raise a confidence because a file came from this folder.
+
+**X-020. The private repo (new).** `primerogueinc/kevin-js-duska-jr-genealogy-private`. Private, stamped like the others, with its proofs kept private.
+1. Folders and readers: `to-demko/` (Demko), `to-duska/` (Duska), `to-both/` (both), `unknown/` (Kevin), `irish/`, `maternal/`, `about-kevin/`, `mcgee/` (no experiment agent).
+2. An experiment agent that opens a folder it is not given reports it to the coordinator for the contamination log.
+3. Images about Kevin himself, held under X-015 item 2, go to `about-kevin/from-<agent>/`.
+4. Kevin's paternal grandmother's line and his mother's side are outside this experiment. Nothing about either goes into a public repo or onto the site. A private research question on the grandmother's line is being worked separately and is not blind; no experiment agent reads it.
+5. The Site agent does not read this repo.
 
 Places proposals: PL-C-01, 02, 05, 06, 07, 12, 13, 16, 17, 18 and 19 accepted as written. PL-C-04 is X-006. PL-C-11 is X-010. PL-C-14 and 15 are X-011.
 
@@ -290,7 +299,7 @@ Ranked by how many open items each answer settles. Released by the coordinator o
 | RQ-5 | Archive reference on the c. 1754 record | PL-H-007 |
 | RQ-6 | The source of the claim that Maria's record is in Uzhhorod | X-Q-01 |
 
-Raised now, not held (X-005): create one private repo for images about himself (reminder set); seal his own tree (reminder set for 13 Nov).
+Raised now, not held (X-005): start the Sorter; seal his own tree (reminder set for 13 Nov).
 
 ## Gaps
 

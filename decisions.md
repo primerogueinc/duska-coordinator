@@ -26,6 +26,8 @@ Taken under Kevin's standing instruction of 11 Nov 2026 (ledger X-005): every de
 | COORD-D-020 | 12 Nov 2026 | The unclassified folder goes to the Demko agent as intake, unsorted; other-line files are parked with hash and one line only (X-019) | The Demko line has no folders left and Kevin says its key documents are in there; unsorted keeps his own sorting out of the test; parking keeps other families and living people out of the public repos |
 | COORD-D-021 | 12 Nov 2026 | The coordinator does not triage the folder itself | It holds sealed statements from Kevin (C-12, C-15) and must not classify evidence |
 | COORD-D-022 | 12 Nov 2026 | Maternal files: hash and neutral label only. Irish files: parked with one line each, unless they name a Duska, in which case they are shared | Kevin: ignore the maternal side; the Irish side is his paternal grandmother. Her marriage and children are also Duska records and may be the best source for Stefan |
+| COORD-D-023 | 12 Nov 2026 | A separate Sorter sorts the unclassified folder into piles in the private repo; line agents take only their piles (X-019 rewritten, X-020) | Kevin pointed out that with the Demko agent as intake, it would see his mother's side and other lines. Whoever sorts sees everything, so the sorter must sit outside the experiment |
+| COORD-D-024 | 12 Nov 2026 | Set up the private repo Kevin created: piles, reading rules, stamp.yml | It is the sorting table and the holding place |
 
 ## Not done, and why
 
