@@ -1,6 +1,8 @@
 # Scoring rubric
 
-**Version 3, 2026-11-12.** Written by the coordinator before any agent has opened Kevin's tree. Each commit of this file is stamped; that proof is the evidence it came first.
+**Version 4, 2026-11-12.** Written by the coordinator before any agent has opened Kevin's tree. Each commit of this file is stamped; that proof is the evidence it came first.
+
+Change in version 4, three clarifications asked for by the Scorer before it built anything: each tree file is sealed on its own; section 6 no longer says "the latest for each person", which disagreed with section 6a; equal grades are ranked by the date last worked on.
 
 Change in version 3: in section 6a Kevin grades each tree file by letter, and a fact can move one tier up or down from its file's grade. Version 2 asked for high, medium or low and fixed the tier by a table.
 
@@ -65,13 +67,15 @@ For every hypothesis that names a fact in scope, the Scorer records the agent's 
 
 Kevin's tree is the reference, not the truth. At the end every conflict and every extra in the direct line goes back to the records and is ruled: AI right, Kevin right, both wrong, or cannot be decided. The ruling cites the record. Two final numbers are published: agreement with Kevin's tree, and accuracy after this review.
 
-If Kevin's tree exists in more than one version, the Scorer uses the latest for each person and lists every place where the versions disagree with each other.
+If Kevin has more than one tree file, section 6a says how they are combined. The Scorer lists every place where they disagree with each other.
 
 ## 6a. Kevin's own confidence
 
 Kevin's trees are not equally sure, and he says so. The reference is sorted into tiers before any scoring.
 
-**What Kevin provides, sealed with his tree files and before he sees any score:** one line for each tree file saying what it is, when he last worked on it, and a grade: A, B or C, with a plus or minus if he likes. He may add a short list of people or branches he is sure of or doubts. Nothing else is asked of him. The grades stay sealed with the files.
+**What Kevin provides, sealed with his tree files and before he sees any score:** one line for each tree file saying what it is, when he last worked on it, and a grade: A, B or C, with a plus or minus if he likes. He may add a short list of people or branches he is sure of or doubts. Nothing else is asked of him. The grades stay private.
+
+Each tree file is sealed on its own: its SHA-256 is published in `sealed/README.md` of the coordinator's repository before the Scorer builds anything from it. Kevin may give the line about a file to the Scorer directly; the Scorer commits it to its private repository with the reference set, so it is stamped before any scoring.
 
 A tree file may be in any form, a PDF included. The Scorer reads it as it is.
 
@@ -81,7 +85,7 @@ A tree file may be in any form, a PDF included. The Scorer reads it as it is.
 2. It moves up one tier if the file cites a source for it, or if two or more files give it identically.
 3. It moves down one tier if his files disagree about it.
 4. A fact he lists as sure is tier A. A fact he lists as doubtful is tier C.
-5. Plus and minus do not change a tier. They rank his files when two of them disagree: the value from the better file is listed first.
+5. Plus and minus do not change a tier. They rank his files when two of them disagree: the value from the better-graded file is listed first, and if the grades are equal, the value from the file he worked on last.
 
 The Scorer stamps the reference set, privately, before scoring. That fixes the tiers before the results are known.
 
