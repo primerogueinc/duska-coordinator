@@ -2,9 +2,15 @@
 
 Kept by the coordinator. Other agents read it and do not edit it. Coordinator IDs use the prefix X-. A ruling here outranks an agent's entry wherever two agents touch.
 
-**Version 16, 2026-11-12.** Log "read ledger v16" in your next batch.
+**Version 17, 2026-11-12.** Log "read ledger v17" in your next batch.
 
 The record copy is `ledger.md` in `primerogueinc/duska-coordinator`. The Project doc `claude/coordinator-ledger-duska-demko.md` is the same text.
+
+## Changes since v16
+
+- New: X-023, DNA. No agent now working handles DNA. It waits for a DNA agent, and for the blind lines it waits until the paper tree is frozen.
+- New: the scoring rubric is written and stamped (`rubric.md` in the coordinator repo, commit 1223684; Project doc `claude/coordinator-scoring-rubric.md`). Blind agents may read it.
+- Changed: registry rows for the Sorter and the McGee agent.
 
 ## Changes since v15
 
@@ -15,71 +21,7 @@ The record copy is `ledger.md` in `primerogueinc/duska-coordinator`. The Project
 - For the Demko agent: "confirmed" is not a ledger status. See the note under X-009.
 - New contamination entries C-17 and C-18.
 
-## Changes since v14
-
-- New: X-022, how Ahn 5 appears in records shared with the Duska line. Answers the Duska agent's question of B-014.
-- Changed: registry. Duska at B-014. The Duska agent's session was refused access to the private repo; Kevin is granting it.
-
-## Changes since v13
-
-- Changed: the Sorter and the McGee agent work inside this Project, not outside it. Kevin: the Project will in time rebuild his whole tree. X-019 and X-020 reworded to match.
-- New: X-021, blind lines and open lines, and what the blind agents must not read.
-
-## Changes since v12
-
-- **Rewritten: X-019.** The Demko agent is no longer the intake for Kevin's unclassified folder. A separate Sorter sorts it into a private repo. Line agents take only their own piles. Demko agent: if the folder has already been given to you, stop, process nothing further from it, and say so in your note to the coordinator.
-- New: X-020, the private repo and who may read what in it.
-
-## Changes since v11
-
-- Changed: X-019. Two more routes. `maternal` is ignored (hash only, no file name). `irish` (Kevin's paternal grandmother's line) is parked for a later agent, except where a document also names a Duska.
-
-## Changes since v10
-
-- New: X-019, intake of Kevin's folder `AAAA Unclassified`. It goes to the Demko agent. Read it before the folder arrives.
-- New contamination entries C-15 and C-16.
-
-## Changes since v9
-
-- Corrected: X-017 item 6. v9 recorded a belief of Kevin's about necronyms in this family. That was the coordinator's misreading. What he said is that a genealogist working in this region would know about necronyms. It is working knowledge, not a statement about this family.
-
-## Changes since v8
-
-- New under X-017: a statement attributed to Kevin about necronyms in this family. (Corrected in v10.)
-
-## Changes since v7
-
-- New: X-018, every time shown on the site appears in UTC and in the reader's local time (Kevin, 12 Nov). For the Site agent; one line for everyone else.
-
-## Changes since v6
-
-- New: X-017, epidemics and reused names. Read the method note `claude/coordinator-method-note-epidemics-necronyms.md` (in the coordinator repo at `methods/epidemics-and-necronyms.md`). Its section 3 is binding.
-- Changed: registry. The Places agent's work is on `main` and stamped. The coordinator fast-forwarded its `main` on Kevin's instruction ("merge all").
-- New contamination entry C-14.
-- Assigned to Places: an epidemic timeline for the three villages.
-
-## Changes since v5
-
-- **Reversed: X-015.** Kevin, 12 Nov: original scans are fine going public unless they are about him. **Do not remove images from your repos.** If you already did under v4 or v5, restore them in your next batch.
-- Changed: X-012 item 5 no longer has a deadline attached.
-- Changed: Kevin told the coordinator to merge the Places agent's pull request. Registry updated.
-
-## Changes since v4
-
-- New: X-016, who counts as living. Kevin, 12 Nov: nobody on this line other than himself is known to be living.
-- Changed: Ahn 2 is now "status unknown", shown as before (name and year only).
-- New contamination entry C-13.
-
-## Changes since v3
-
-- New: X-015, record images leave the public repos. (Reversed in v6.)
-- Changed: X-012 item 5. (Deadline dropped in v6.)
-- Changed: Ahn 4, Stefan (Steve) Duska, died 2018 (Kevin, 12 Nov). Set `living: false`. Ahn 2: Kevin does not know whether he is living. He stays "treated as living".
-- Changed: registry. The coordinator repo exists. Places is at PL-B-001, still on a branch.
-- New under X-Q-01: the Iňačovce parish archive was damaged in 1929 and 1930 (Places). Assigned to Places.
-- Corrected: Vysoká nad Uhom stayed on the Slovak side of the 1939 line (Places, PL-S-036).
-- New for both line agents: a Greek Catholic family of Senné is in the Iňačovce book (Places). See "Relayed findings".
-- New contamination entries C-10 to C-12.
+Earlier change lists (v2 to v14) are in this file's git history in `primerogueinc/duska-coordinator`.
 
 ## Registry (as seen 2026-11-12, about 02:05 Toronto)
 
@@ -89,9 +31,9 @@ The record copy is `ledger.md` in `primerogueinc/duska-coordinator`. The Project
 | Demko A-02 | `primerogueinc/genealogy-demko-1` | `main` | b2bdf12 | DM-B-010 | yes |
 | Places A-03 | `primerogueinc/duska-and-demko-villages` | `main` | 641ba53 | PL-B-005 | yes |
 | Site | `Prime-Rogue-Inc-Corporate/duska-si-frontend` (private) | `deploy`, live at https://duska.si | n/a | see its note | yes, served at /proofs/site/ |
-| Coordinator | `primerogueinc/duska-coordinator` | `main` | this commit | COORD-B-014, ledger v16 | yes |
-| Sorter | `primerogueinc/kevin-js-duska-jr-genealogy-private` (private), piles | this Project. Neutral (X-021) | 41dd5ae | S-B-001: 1 file in `to-both/`, 32 in `unknown/` | yes, proofs private |
-| McGee | same private repo, `mcgee/` | this Project. Open, not blind (X-021) | 2a9dfb3 | MCGEE-S-001 | yes, proofs private |
+| Coordinator | `primerogueinc/duska-coordinator` | `main` | this commit | COORD-B-016, ledger v17 | yes |
+| Sorter | `primerogueinc/kevin-js-duska-jr-genealogy-private` (private), piles | this Project. Neutral (X-021) | 271e67c | S-B-004: 1 file in `to-both/`, 43 in `unknown/` | yes, proofs private |
+| McGee | same private repo, `mcgee/`. Batches `MG-B-NNN` | this Project. Open, not blind (X-021) | 08cce9c | MG-B-005 | yes, proofs private |
 | Scorer | not started | n/a | n/a | n/a | n/a |
 
 ## The line as stated by Kevin
@@ -235,6 +177,14 @@ Note for the Demko agent: your board uses the status `confirmed` (DM-H-001 at 97
 5. The same applies to baptisms of the children of Ahn 4 and Ahn 5: the child and the father's side are public within X-016; the mother's side beyond her name is withheld.
 6. Nothing learned from the withheld fields is used for the Duska line or relayed to the Demko or Places agents.
 
+**X-023. DNA (new; Kevin, 12 Nov).** Kevin has DNA results. None has been given to any agent.
+1. No agent now working reads, sorts, transcribes or reasons from DNA material. If a DNA file reaches you, do not open it: tell Kevin and the coordinator.
+2. Sorter: a file that is DNA material by its name or type goes to `dna/` in the private repo unopened, with its SHA-256 and a neutral label. Raw genotype data is never committed (private repo README, rule 7).
+3. Blind lines (Duska, Demko): DNA is not used until the paper tree is frozen and scored. It then becomes a second phase with its own snapshot and its own score, so the record shows what documents alone produced and what DNA changed.
+4. Open line (McGee): DNA may be used earlier, through a DNA agent only, when the McGee agent has named the specific comparison it needs and what each result would prove.
+5. A DNA agent, when started, is open, private, and the only reader of `dna/`. It reports conclusions to other agents with living matches under neutral labels, never by name.
+6. Nothing from DNA goes into a public repo, a Project doc or the site: no match names, no shared-match lists, no segment data, no ethnicity percentages.
+
 Places proposals: PL-C-01, 02, 05, 06, 07, 12, 13, 16, 17, 18 and 19 accepted as written. PL-C-04 is X-006. PL-C-11 is X-010. PL-C-14 and 15 are X-011.
 
 Agent IDs: Duska A-01, Demko A-02, Places A-03.
@@ -353,7 +303,7 @@ Raised now, not held (X-005): seal his own tree (reminder set for 13 Nov).
 
 ## Gaps
 
-1. The scoring rubric is not written. It must be stamped before the Scorer starts. Scores will measure agreement with Kevin's tree; where the two differ, the comparison goes back to the records.
+1. Kevin's own tree is not yet sealed. The Scorer starts after that.
 2. The Duska and Demko agents have no access to the private repo yet; Kevin is granting it in their chats.
-3. The Sorter put 32 of its first 33 files in `unknown/`. That pile is Kevin's to rule on.
+3. The Sorter has 43 files in `unknown/` and 1 in `to-both/` after four batches. By file type most of `unknown/` is saved web-page machinery, not records. That pile is Kevin's to rule on.
 4. C-09 and C-18 are open.
