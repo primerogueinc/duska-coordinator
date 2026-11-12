@@ -1,0 +1,18 @@
+# duska.si proof manifest, version 1
+repo: primerogueinc/duska-coordinator
+commit: 122368492635660320b526a45a414af33ac215c4
+parent: e9ad8862dec8e38cd3d73ce1927b084ee03b2d2e
+commit_time: 2026-11-12T07:04:44Z
+subject: COORD-B-015: scoring rubric v1, written before any agent has opened Kevin's tree
+tree: 2d9b087cdecfbc036fa6fb9a2fd197c5f3f46849
+files: 8
+hash: SHA-256 of each file's content as git stores it, sorted by path (byte order)
+---
+51429a70598b89fc62114afa88c9877c3b4fcbeffe21973a2ddff23631157279  .github/workflows/stamp.yml
+50b561a1f23714a5d03210c5f09cd6331af24f0b8f1d430a62ef382a3398dfcb  LICENSE
+c394d0c55a4d98ee82ef1a019945be88eff1e89443bc7cd5627a4e67c912db48  README.md
+380c9fb7bca73c235a9085d7a0f38e43f6c18890735e4ca924057f9d52432ba2  decisions.md
+3260c361824877fa6f6534e0a1bd0881639875ca1b6b143c528fa78251c079d2  ledger.md
+1ab44c6fdd389fc72251011a2aeaebfaa20c6579849f66f7215994f4723dea43  methods/epidemics-and-necronyms.md
+4e967f4b524beb1c885095a678cf36176d6a223360a36b70e0c581d179d64e05  rubric.md
+cb545a5344bad46504d9ab2f8323d69253e0d19d85efca6944d15dfa05d01f7b  sealed/README.md
