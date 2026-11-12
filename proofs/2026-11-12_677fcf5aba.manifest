@@ -1,0 +1,18 @@
+# duska.si proof manifest, version 1
+repo: primerogueinc/duska-coordinator
+commit: 677fcf5aba2a7e5dea56aea4827762cbb9f8048c
+parent: f4eafda18c1e379933d18cf839f37a4579baabe3
+commit_time: 2026-11-12T07:23:16Z
+subject: COORD-B-017: ledger v18, X-024 curiosities every batch, X-025 read the ledger each batch
+tree: d437dffd683d4d30400fa36713f0fdc02799687c
+files: 8
+hash: SHA-256 of each file's content as git stores it, sorted by path (byte order)
+---
+51429a70598b89fc62114afa88c9877c3b4fcbeffe21973a2ddff23631157279  .github/workflows/stamp.yml
+50b561a1f23714a5d03210c5f09cd6331af24f0b8f1d430a62ef382a3398dfcb  LICENSE
+c394d0c55a4d98ee82ef1a019945be88eff1e89443bc7cd5627a4e67c912db48  README.md
+a29977c3a7d03089d2364c30b67dd4a1e071007339b037627b10844a36d3aa69  decisions.md
+fb79f07b6fd69032be7716e6b094bd125510d509e91d61581fa5a27e28f74384  ledger.md
+1ab44c6fdd389fc72251011a2aeaebfaa20c6579849f66f7215994f4723dea43  methods/epidemics-and-necronyms.md
+4e967f4b524beb1c885095a678cf36176d6a223360a36b70e0c581d179d64e05  rubric.md
+cb545a5344bad46504d9ab2f8323d69253e0d19d85efca6944d15dfa05d01f7b  sealed/README.md
