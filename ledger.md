@@ -2,13 +2,18 @@
 
 Kept by the coordinator. Other agents read it and do not edit it. Coordinator IDs use the prefix X-. A ruling here outranks an agent's entry wherever two agents touch.
 
-**Version 13, 2026-11-12.** Log "read ledger v13" in your next batch.
+**Version 14, 2026-11-12.** Log "read ledger v14" in your next batch.
 
 The record copy is `ledger.md` in `primerogueinc/duska-coordinator`. The Project doc `claude/coordinator-ledger-duska-demko.md` is the same text.
 
+## Changes since v13
+
+- Changed: the Sorter and the McGee agent work inside this Project, not outside it. Kevin: the Project will in time rebuild his whole tree. X-019 and X-020 reworded to match.
+- New: X-021, blind lines and open lines, and what the blind agents must not read.
+
 ## Changes since v12
 
-- **Rewritten: X-019.** The Demko agent is no longer the intake for Kevin's unclassified folder. A separate Sorter, outside this Project, sorts it into a private repo. Line agents take only their own piles. Demko agent: if the folder has already been given to you, stop, process nothing further from it, and say so in your note to the coordinator.
+- **Rewritten: X-019.** The Demko agent is no longer the intake for Kevin's unclassified folder. A separate Sorter sorts it into a private repo. Line agents take only their own piles. Demko agent: if the folder has already been given to you, stop, process nothing further from it, and say so in your note to the coordinator.
 - New: X-020, the private repo and who may read what in it.
 
 ## Changes since v11
@@ -70,8 +75,9 @@ The record copy is `ledger.md` in `primerogueinc/duska-coordinator`. The Project
 | Demko A-02 | `primerogueinc/genealogy-demko-1` | `main` | 035aef0 | DM-B-002 | yes |
 | Places A-03 | `primerogueinc/duska-and-demko-villages` | `main` | 6eab2b2 | PL-B-002 | yes. `main` fast-forwarded by the coordinator on Kevin's instruction, 12 Nov |
 | Site | `Prime-Rogue-Inc-Corporate/duska-si-frontend` (private) | `deploy`, live at https://duska.si | n/a | SITE-B-003 | yes, served at /proofs/site/ |
-| Coordinator | `primerogueinc/duska-coordinator` | `main` | this commit | COORD-B-011, ledger v13 | yes |
-| Sorter | `primerogueinc/kevin-js-duska-jr-genealogy-private` (private) | separate Project | n/a | not started | yes, proofs private |
+| Coordinator | `primerogueinc/duska-coordinator` | `main` | this commit | COORD-B-012, ledger v14 | yes |
+| Sorter | `primerogueinc/kevin-js-duska-jr-genealogy-private` (private), piles | this Project | n/a | started 12 Nov | yes, proofs private |
+| McGee | same private repo, `mcgee/` | this Project. Open, not blind (X-021) | n/a | started 12 Nov | yes, proofs private |
 | Scorer | separate Project, not started | n/a | n/a | n/a | n/a |
 
 ## The line as stated by Kevin
@@ -180,7 +186,7 @@ No document for Ahn 4, 8 or 9 is in hand in any repo. Everything in this table i
 3. A Bitcoin block time is the block's own timestamp, shown the same way and labelled as block time.
 
 **X-019. The unclassified folder (rewritten in v13; Kevin, 12 Nov).** Kevin has a folder named `AAAA Unclassified`. It is mixed: material for the Demko line, for the Duska line, for his paternal grandmother's line, and for his mother's side. There are no more Demko folders. He does not want the line agents to see the material that is not theirs.
-1. A Sorter agent, working outside this Project, receives the folder. It publishes nothing. It sorts every file into a pile in the private repo (X-020) by what the document itself shows, and records its reason.
+1. A Sorter agent receives the folder. It is a separate chat in this Project. It publishes nothing. It sorts every file into a pile in the private repo (X-020) by what the document itself shows, and records its reason.
 2. The Demko agent takes `to-demko/` and `to-both/`. The Duska agent takes `to-duska/` and `to-both/`. Nothing else.
 3. Archive what you take in your own repo as usual, with the SHA-256 from the pile's `MANIFEST.json`, and log the commit of the private repo you read.
 4. The pile a file arrived in is the "sorter's label", proof level `prior` (X-004). It raises no confidence. If you think a file is in the wrong pile, say so in your note to the coordinator and process it anyway if it bears on your line.
@@ -193,8 +199,17 @@ No document for Ahn 4, 8 or 9 is in hand in any repo. Everything in this table i
 1. Folders and readers: `to-demko/` (Demko), `to-duska/` (Duska), `to-both/` (both), `unknown/` (Kevin), `irish/`, `maternal/`, `about-kevin/`, `mcgee/` (no experiment agent).
 2. An experiment agent that opens a folder it is not given reports it to the coordinator for the contamination log.
 3. Images about Kevin himself, held under X-015 item 2, go to `about-kevin/from-<agent>/`.
-4. Kevin's paternal grandmother's line and his mother's side are outside this experiment. Nothing about either goes into a public repo or onto the site. A private research question on the grandmother's line is being worked separately and is not blind; no experiment agent reads it.
+4. Kevin's paternal grandmother's line and his mother's side are outside this experiment. Nothing about either goes into a public repo or onto the site. A private research question on the grandmother's line is being worked by the McGee agent, which is not blind (X-021); no blind agent reads it.
 5. The Site agent does not read this repo.
+
+**X-021. Blind lines and open lines (new).** This Project will in time cover Kevin's whole tree. Not every part of it is a blind test.
+1. Blind: the Duska and Demko lines, with the Places agent and the Coordinator. These are scored against Kevin's tree, and X-011 applies.
+2. Open: the McGee agent, which works one question on Kevin's paternal grandmother's line with everything Kevin knows. It is not scored and publishes nothing.
+3. Neutral: the Sorter. It sorts by what a document shows and is told only the surnames it needs.
+4. Blind agents do not read the McGee or Sorter chats, any Project doc whose name begins `claude/mcgee-` or `claude/sorter-`, the `mcgee/`, `irish/`, `maternal/`, `about-kevin/` or `unknown/` folders of the private repo, or any memory note about the grandmother's line or the mother's side. An exposure is reported for the contamination log.
+5. The McGee agent and the Sorter write Project docs only to the coordinator, and only counts and file hashes: no names, dates or findings.
+6. The one overlap is Ahn 4 and his children. A fact about them that reaches the McGee agent stays there. It is never relayed to a blind agent except by the coordinator, logged, and scored as given.
+7. When Kevin opens another line as a blind rebuild, it gets its own agent and repo and joins item 1.
 
 Places proposals: PL-C-01, 02, 05, 06, 07, 12, 13, 16, 17, 18 and 19 accepted as written. PL-C-04 is X-006. PL-C-11 is X-010. PL-C-14 and 15 are X-011.
 
@@ -299,7 +314,7 @@ Ranked by how many open items each answer settles. Released by the coordinator o
 | RQ-5 | Archive reference on the c. 1754 record | PL-H-007 |
 | RQ-6 | The source of the claim that Maria's record is in Uzhhorod | X-Q-01 |
 
-Raised now, not held (X-005): start the Sorter; seal his own tree (reminder set for 13 Nov).
+Raised now, not held (X-005): seal his own tree (reminder set for 13 Nov).
 
 ## Gaps
 
