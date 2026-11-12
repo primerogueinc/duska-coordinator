@@ -2,9 +2,14 @@
 
 Kept by the coordinator. Other agents read it and do not edit it. Coordinator IDs use the prefix X-. A ruling here outranks an agent's entry wherever two agents touch.
 
-**Version 14, 2026-11-12.** Log "read ledger v14" in your next batch.
+**Version 15, 2026-11-12.** Log "read ledger v15" in your next batch.
 
 The record copy is `ledger.md` in `primerogueinc/duska-coordinator`. The Project doc `claude/coordinator-ledger-duska-demko.md` is the same text.
+
+## Changes since v14
+
+- New: X-022, how Ahn 5 appears in records shared with the Duska line. Answers the Duska agent's question of B-014.
+- Changed: registry. Duska at B-014. The Duska agent's session was refused access to the private repo; Kevin is granting it.
 
 ## Changes since v13
 
@@ -71,11 +76,11 @@ The record copy is `ledger.md` in `primerogueinc/duska-coordinator`. The Project
 
 | Agent | Repo | Read from | Commit | Last batch | Stamped |
 |---|---|---|---|---|---|
-| Duska A-01 | `primerogueinc/genealogu-duska-1` | `main` | 1ac4e08 | B-005 | yes |
+| Duska A-01 | `primerogueinc/genealogu-duska-1` | `main` | see repo | B-014 | yes |
 | Demko A-02 | `primerogueinc/genealogy-demko-1` | `main` | 035aef0 | DM-B-002 | yes |
 | Places A-03 | `primerogueinc/duska-and-demko-villages` | `main` | 6eab2b2 | PL-B-002 | yes. `main` fast-forwarded by the coordinator on Kevin's instruction, 12 Nov |
 | Site | `Prime-Rogue-Inc-Corporate/duska-si-frontend` (private) | `deploy`, live at https://duska.si | n/a | SITE-B-003 | yes, served at /proofs/site/ |
-| Coordinator | `primerogueinc/duska-coordinator` | `main` | this commit | COORD-B-012, ledger v14 | yes |
+| Coordinator | `primerogueinc/duska-coordinator` | `main` | this commit | COORD-B-013, ledger v15 | yes |
 | Sorter | `primerogueinc/kevin-js-duska-jr-genealogy-private` (private), piles | this Project | n/a | started 12 Nov | yes, proofs private |
 | McGee | same private repo, `mcgee/` | this Project. Open, not blind (X-021) | n/a | started 12 Nov | yes, proofs private |
 | Scorer | separate Project, not started | n/a | n/a | n/a | n/a |
@@ -210,6 +215,14 @@ No document for Ahn 4, 8 or 9 is in hand in any repo. Everything in this table i
 5. The McGee agent and the Sorter write Project docs only to the coordinator, and only counts and file hashes: no names, dates or findings.
 6. The one overlap is Ahn 4 and his children. A fact about them that reaches the McGee agent stays there. It is never relayed to a blind agent except by the coordinator, logged, and scored as given.
 7. When Kevin opens another line as a blind rebuild, it gets its own agent and repo and joins item 1.
+
+**X-022. Ahn 5 in Duska records (new).** The Duska agent asked how to enter Stefan's wife when their marriage or a child's baptism reaches its pile, since her line stays out of the public repos. Ruling, confirming the agent's own proposal and adding to it:
+1. Public: her name as the record gives it, the date and place of the marriage, and every field that concerns Ahn 4, his parents and the witnesses on his side. She is entered as Ahn 5 with `living: "unknown"` (X-016): name and year only.
+2. Not public: her parents, her birthplace, her age or birth date, her residence before marriage, and anything else that reaches into her own line. Leave these out of the public abstract and transcription and mark the place `[withheld: outside this experiment]`.
+3. The image of such a record is held, not committed publicly, because it shows the withheld fields. Log its name and SHA-256 publicly. Put the image and the full transcription in the private repo under `irish/from-duska/`.
+4. Nobody above Ahn 5 is added to any public tree.
+5. The same applies to baptisms of the children of Ahn 4 and Ahn 5: the child and the father's side are public within X-016; the mother's side beyond her name is withheld.
+6. Nothing learned from the withheld fields is used for the Duska line or relayed to the Demko or Places agents.
 
 Places proposals: PL-C-01, 02, 05, 06, 07, 12, 13, 16, 17, 18 and 19 accepted as written. PL-C-04 is X-006. PL-C-11 is X-010. PL-C-14 and 15 are X-011.
 
