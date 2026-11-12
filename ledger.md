@@ -2,58 +2,60 @@
 
 Kept by the coordinator. Other agents read it and do not edit it. Coordinator IDs use the prefix X-. A ruling here outranks an agent's entry wherever two agents touch.
 
-**Version 19, 2026-11-12.** Log "read ledger v19" in your next batch.
+**Version 20, 2026-11-12.** Log "read ledger v20" in your next batch.
 
 The record copy is `ledger.md` in `primerogueinc/duska-coordinator`. The Project doc `claude/coordinator-ledger-duska-demko.md` is the same text.
 
-## Changes since v18
+## Changes since v19
 
-A catch-up on every note addressed to the coordinator. The coordinator had fallen behind the line agents; these were right and are fixed.
+A full round of every agent's note and repo, at Kevin's request.
 
-- **The line table is rewritten.** Ahn 4, 8 and 9 are documented. RQ-1 is answered and struck.
-- New X-S numbers 004 to 009 and two blocks.
-- New questions X-Q-05 (parents of Ahn 19) and X-Q-06 (parents of Ahn 8).
-- X-007: `stamp.yml` version 2. Replace your copy in your next batch.
-- X-009: a link that rests on two capped links shows the cap, with `depends_on`.
-- X-011 item 7: no online family trees. X-016 items 3 and 6 amended. X-020 item 3 and X-022 item 3 amended: line agents never push to the private repo.
-- X-021: the Site agent is blind; no past-chat search by blind agents.
-- New X-026: answers to the Duska, Demko and Site agents, by item.
-- Contamination log: C-09 and C-18 updated; C-19 to C-21 new.
-- Request queue re-ranked from the Duska agent's released list.
+- **The line table has moved two generations.** Ahn 2 is documented. Ahn 8 has his birth and death. Ahn 16 and 17 are entered. X-Q-06 is solved by its owner.
+- X-Q-01: the Demko board moved on a statement by Kevin. Scored as given.
+- New X-S numbers 010 to 016 and block B03.
+- New X-027: Kevin's own writings and online-tree pages; what the Sorter does with them.
+- New X-028: answers to the Duska agent and the Sorter, by item.
+- X-022 item 3 amended: the Sorter copies such a record to `irish/` as well.
+- Contamination log: C-22 to C-27 new.
+- Request queue: RQ-7, 8 and 9 struck as answered. RQ-11 new.
+- Places agent: you have not been prompted since ledger v14. Everything from v15 on is new to you, including version 2 of `stamp.yml`.
 
-## Changes since v17
-
-- New: X-024, curiosities in every batch (Kevin, 12 Nov).
-- New: X-025, read the ledger at the start of every batch without being told a version number.
-
-## Registry (as seen 2026-11-12, about 02:45 Toronto)
+## Registry (as seen 2026-11-12, about 10:00 UTC)
 
 | Agent | Repo | Read from | Commit | Last batch | Stamped |
 |---|---|---|---|---|---|
-| Duska A-01 | `primerogueinc/genealogu-duska-1` | `main` | 4d7a299 | B-018 | yes |
-| Demko A-02 | `primerogueinc/genealogy-demko-1` | `main` | 05cc58c | DM-B-011 | yes |
-| Places A-03 | `primerogueinc/duska-and-demko-villages` | `main` | 641ba53 | PL-B-005 | yes |
-| Site | `Prime-Rogue-Inc-Corporate/duska-si-frontend` (private) | `deploy`, live at https://duska.si | n/a | SITE-B-009 | yes, served at /proofs/site/ |
-| Coordinator | `primerogueinc/duska-coordinator` | `main` | this commit | COORD-B-018, ledger v19 | yes |
-| Sorter | `primerogueinc/kevin-js-duska-jr-genealogy-private` (private), piles | this Project. Neutral (X-021) | 2e27160 | S-B-005: `to-both/` 1, `irish/` 11, `unknown/` 43 | yes, proofs private |
-| McGee | same private repo, `mcgee/`. Batches `MG-B-NNN` | this Project. Open, not blind (X-021) | see repo | MG-B-005 or later | yes, proofs private |
+| Duska A-01 | `primerogueinc/genealogu-duska-1` | `main` | c1c3be2 | B-036 | yes, `stamp.yml` v2 |
+| Demko A-02 | `primerogueinc/genealogy-demko-1` | `main` | 5d8cbc4 | DM-B-013 | yes, v2 |
+| Places A-03 | `primerogueinc/duska-and-demko-villages` | `main` | 641ba53 | PL-B-005. Not prompted since ledger v14 | yes, still v1 |
+| Site | `Prime-Rogue-Inc-Corporate/duska-si-frontend` (private) | `deploy`, live at https://duska.si | n/a | SITE-B-010 | yes, served at /proofs/site/ |
+| Coordinator | `primerogueinc/duska-coordinator` | `main` | this commit | COORD-B-019, ledger v20 | yes, v2 |
+| Sorter | `primerogueinc/kevin-js-duska-jr-genealogy-private` (private), piles | this Project. Neutral (X-021) | see repo | S-B-018. 153 files or more received | yes, proofs private |
+| McGee | same private repo, `mcgee/`. Batches `MG-B-NNN` | this Project. Open, not blind (X-021) | see repo | MG-B-010 | yes, proofs private |
 | Scorer | not started | n/a | n/a | n/a | n/a |
 
-No proof in any repo is confirmed in a Bitcoin block yet. See X-007.
+Seen at 09:52 UTC: the live site was built from Duska `15de212` (08:17 UTC), nineteen batches behind Duska `main`. Site agent: please check whether the hourly build is running and whether a pre-deploy check is stopping it.
+No proof in any repo is confirmed in a Bitcoin block yet (coordinator: 0 of 19, the oldest about four hours old).
 
 ## The line
+
+Taken from the line agents' own entries at the commits in the registry. Proof levels are theirs.
 
 | Ahn | Person | Proof | On what |
 |---|---|---|---|
 | 1 | Kevin J.S. Duska Jr., b. 1985 Montréal | stated | Kevin |
-| 2 | Kevin John Duska, b. 1962 Montréal. Status unknown (X-016) | stated | Kevin. The link from Ahn 2 to Ahn 4 rests on his statement alone |
-| 4 | Štefan (Stefan, Steve) Duska, b. 21 Oct 1929 at Senné no. 160; d. 2018 | birth and parents documented; death stated | X-S-004; Kevin |
-| 8 | Michal (Mihaly, Mike) Duska. Cottar of Senné in 1929, entered as Roman Catholic; in Montréal and alive in November 1966. His own birth, parents and marriage are not in hand | documented | X-S-004, X-S-006 |
-| 9 | Maria (Mary) Demko, b. 22 Aug 1906 at Solymos (Iňačovce), entered as Greek Catholic; d. 9 Sep 1950 at Montréal | documented, `necronym risk: unresolved` (DM-H-024, 8) | X-S-004 to X-S-007 |
-| 18 | Mihály Demkó, b. 19 Aug 1882 at Viszoka no. 132; father of Ahn 9 at 70 on both boards | supported, capped (X-009, X-017) | X-S-001, X-S-007 |
+| 2 | Kevin John Duska, b. 1962 Montréal. Status unknown (X-016) | documented | X-S-014: named as son of Steve Duska, who signs as witness |
+| 3 | Kevin's mother. Outside this experiment; her line is not followed | n/a | Dead, by Kevin's statement of 12 Nov. On his word her name is public in the Duska repo (X-028) |
+| 4 | Štefan (Stefan, Stephen, Steve) Duska, b. Oct 1929 at Senné no. 160, bapt. 26 Oct; m. 26 Nov 1955 at Montréal; d. 2018 | documented; death stated | X-S-004, X-S-011, X-S-015. **His birthday is the 21st on the parish certificates of 1947 and 1955 and the 23rd on the 1930 census and three papers of 1937** (RQ-11) |
+| 5 | Joan Teresa Leonard, wife of Ahn 4. Status unknown. Her line is outside this experiment (X-022) | documented, by name and marriage only | X-S-015 |
+| 8 | Michal (Mihály, Mike) Duska, b. 3 Jul 1903 at Senné no. 79; m. 30 Jan 1927; to Canada 1929 to 1931; d. 31 Jan 1974 at Montréal | documented | X-S-011, X-S-010, X-S-B03, X-S-013 |
+| 9 | Maria (Mary) Demko, b. 22 Aug 1906 at Solymos (Iňačovce); to Canada with her son, November 1937; d. 9 Sep 1950 at Montréal | documented, `necronym risk: unresolved` (DM-H-024, 8) | X-S-004 to X-S-007, X-S-B03 |
+| 16 | András (Andrej) Duska, b. 24 Nov 1868 at Senné; d. 1940 [?] | documented | X-S-011, X-S-012 |
+| 17 | Anna Nyemcsik (also written Minarcsin and Nyemecz), b. 24 Aug 1872 at Senné no. 79; m. 18 Jan 1892 | documented | X-S-011, X-S-012 |
+| 18 | Mihály Demkó, b. 19 Aug 1882 at Viszoka no. 132 | supported, capped at 70 on both boards | X-S-001, X-S-007 |
 | 19 | Mária Kocsis, b. about 1886 at Solymos | documented as mother of Ahn 9; her own baptism is X-Q-05 | X-S-007 |
+| 32 to 35 | Named in the marriage entry of 1892 as the parents of Ahn 16 and 17. Not entered on the tree | DUS:H-054, 70 | X-S-012 |
 
-Statements by Kevin (the names of Ahn 4 and 8, that Ahn 4 died in 2018) are scored as given. What a record then proved is scored as rebuilt.
+Statements by Kevin are scored as given. What a record then proved is scored as rebuilt, with any exposure beside it (C-22).
 
 ## Crosswalk
 
@@ -62,12 +64,23 @@ Statements by Kevin (the names of Ahn 4 and 8, that Ahn 4 died in 2018) are scor
 | X-S-001 | 1882 baptism strip, Mihály Demkó, Viszoka 132 | S-002 / D-002-01; again as D-004-16 | DM-D-001 | Checksums match. Readings agree |
 | X-S-002 | 1895 baptism copy, György Demko, Gönyű 24 | S-003 / D-003-01 | taken under X-012 | Belža Greek Catholic register (PL-R-053) |
 | X-S-003 | [1894] baptism copy, Mária Hriczko, Szina 182 | S-004 / D-003-02 | taken under X-012 | same book |
-| X-S-004 | Parish certificate of 19 Aug 1947: baptism of Štefan Duska, Senné RC, vol. IV p. 110, entry 43 of 1929 | S-024 / D-X01-01 | DM-D-011 / DM-S-004-8 | **Readings differ on the godmother's given name:** Zuzana (Duska) or Juliana (Demko). Both agents: re-read from the image without looking at the other's reading, and report |
+| X-S-004 | Parish certificate of 19 Aug 1947: baptism of Štefan Duska, Senné RC, vol. IV p. 110, entry 43 of 1929 | S-024 / D-X01-01 | DM-D-011 / DM-S-004-8 | The godmother is Zuzana: the Demko agent re-read and corrected, and a second extract of 1955 gives her plainly. Settled |
 | X-S-005 | Gravestone, Montréal: Mary Demko 1906 to 1950, wife of Mike Duska | S-025 / D-X01-02 | DM-D-004 / DM-S-004-2 | Agree |
 | X-S-006 | Deed of sale, 1966, clause 4 | S-026 / D-X01-03 | DM-D-007 / DM-S-004-5 | Agree |
 | X-S-007 | State birth registration no. 45 of 1906, Alsókánya: Mária Demkó | cited, not read | DM-D-008 / DM-S-004-6 | Duska agent: read it yourself before relying on it further (X-012 item 3) |
 | X-S-008 | Compiled family-tree chart of a Javor family, from the Sorter's `to-both/` | D-006-01 / S-085 | DM-D-069 | Held by both: it shows living third parties. Checksums match the pile |
 | X-S-009 | Baptism of Mária Kocsis, 27 Feb [1887], Solymos 19 | D-005-43 | DM-D-054 | One strip, two boards: count once (X-Q-05) |
+| X-S-010 | Passenger list: Michal Duska of Senné, aged 26, with a note of the 1937 Immigration Branch file | D-006-19 | not taken | From the Sorter's pile |
+| X-S-011 | Census of 1930, Senné, house 145 (Slovak National Archive, Sčítanie ľudu 1930, box 0311) | D-011-24 | not taken | The record that solved X-Q-06 |
+| X-S-012 | Marriage of András Duska and Anna Nyemcsik, 18 Jan 1892, Senné Roman Catholic, page 16, entry 3 | D-006-03 | not taken | Names all four of their parents |
+| X-S-013 | Death notice of Mike Duska, Sr., The Montreal Star, 2 Feb 1974 | D-006-20 | in `to-demko/` too | Image held by the Duska agent |
+| X-S-014 | Québec declaration of marriage, 1984: Ahn 2 | D-006-10 | not for Demko | Released in part on Kevin's word; see X-028 |
+| X-S-015 | Québec registration of the marriage of Ahn 4 and Ahn 5, 26 Nov 1955 | D-006-22 | not for Demko | Held (X-022) |
+| X-S-016 | Cemetery record FT 01965: a Duska born 28 Nov 1890 | D-006-09 | not taken | Not Ahn 8 (DUS:H-060) |
+| X-S-B03 | Block: the emigration papers of 1937, eight photographs | D-006-11 to D-006-18 | the copies in `to-demko/` | One photograph shows an envelope with a name from the line outside the experiment: crop before any public use, as the Duska agent has |
+| X-S-B04 | Block: Senné Roman Catholic strips | F-009, 95 files | 7 taken | |
+| X-S-B05 | Block: Solymos Reformed strips | F-007, 45 files | F-09, 13 taken | |
+| X-S-B06 | Block: census and urbarial images | F-011, 66 files | none yet | |
 | X-S-B01 | Block: Čičarovce Greek Catholic strips, 1831 to 1883 | F-004, D-004-01 to D-004-20 | DM-S-005-1 to -18 | The Demko agent owns the placements |
 | X-S-B02 | Block: Iňačovce Greek Catholic strips | F-005, D-005-01 to D-005-58 | F-05, 28 of the 58 | Inside a block, cite the agents' own document IDs |
 
@@ -188,7 +201,7 @@ A link that rests on two other links, each capped at 70, is shown at the cap, no
 **X-022. Ahn 5 in Duska records (new).** The Duska agent asked how to enter Stefan's wife when their marriage or a child's baptism reaches its pile, since her line stays out of the public repos. Ruling, confirming the agent's own proposal and adding to it:
 1. Public: her name as the record gives it, the date and place of the marriage, and every field that concerns Ahn 4, his parents and the witnesses on his side. She is entered as Ahn 5 with `living: "unknown"` (X-016): name and year only.
 2. Not public: her parents, her birthplace, her age or birth date, her residence before marriage, and anything else that reaches into her own line. Leave these out of the public abstract and transcription and mark the place `[withheld: outside this experiment]`.
-3. The image of such a record is held, not committed publicly, because it shows the withheld fields. Log its name and SHA-256 publicly. Do not transcribe the withheld fields anywhere. Kevin gives the same file to the McGee agent himself. (Amended in v19: the Duska agent does not push to the private repo.)
+3. The image of such a record is held, not committed publicly, because it shows the withheld fields. Log its name and SHA-256 publicly. Do not transcribe the withheld fields anywhere. The Sorter places a second copy in `irish/`, so the McGee agent receives it without Kevin having to carry it. (Amended in v20.)
 4. Nobody above Ahn 5 is added to any public tree.
 5. The same applies to baptisms of the children of Ahn 4 and Ahn 5: the child and the father's side are public within X-016; the mother's side beyond her name is withheld.
 6. Nothing learned from the withheld fields is used for the Duska line or relayed to the Demko or Places agents.
@@ -222,6 +235,27 @@ A link that rests on two other links, each capped at 70, is shown at the cap, no
 - Site agent, SITE-C-18 item 3: the route names in the Demko agent's DM-B-009 blurb may stay; they carry no name or fact.
 - Site agent, SITE-C-04 (b): still to come, with the Scorer.
 
+**X-027. Kevin's own writings, and online trees (new).** His folders hold files he wrote himself and screenshots of online family trees. The Duska agent has held ten of the first kind and asked for a rule.
+1. Barred until the comparison phase, and held unopened: anything Kevin compiled about the family. That covers a "family group record", an overview or summary of baptisms, a list of people he drew up, a tree page, and any file whose name states a conclusion.
+2. Readable: a guide of his to a kind of record or a collection, if it holds nothing about the family. If you open one and find it does, stop and report it.
+3. Readable after your own reading is written down: a transcription or translation of a record made for him by someone else. Log it, and mark every reading you change because of it as given.
+4. Online-tree pages: no blind agent opens one, whoever moved it to a pile (X-011 item 7). Sorter: hold every such page in `unknown/`, including the six there now, and place none in a line pile. The page already in `to-duska/` stays unopened. The page the Sorter judges to be Kevin's own tree in its editing view is never released to any pile.
+5. A file name of Kevin's that states a finding is a prior (X-004). Record it as one when you see it, as the Duska agent did with PR-12.
+
+**X-028. Answers to the Duska agent and the Sorter (new).**
+- Duska agent, the 1984 declaration (X-S-014): Kevin told you his mother is dead and that there is no need to hold her part. His word stands over X-020 item 4 for her own name, birth and the marriage. Her parents, and everything else you have blacked out, stay withheld. Her line is not followed.
+- Duska agent, "all dead" and the ten census captures: your narrow reading is right. It covers the villagers on those sheets. It does not cover Ahn 2 or the second son of Ahn 8.
+- Duska agent, the second son of Ahn 8: he was born in Canada after 1937 and his status is unknown. Under X-016 item 3 he may appear by given name and "born in Canada" and nothing more. His 1973 marriage record stays held and unopened.
+- Duska agent, `DUS:H-065` at 90: agreed. The cap in X-009 is for identities and links. An event shown on dated originals is not capped.
+- Duska agent, the Slovak census of 1930 and 1940: these are public records and are yours to read. Kevin's "initial lists" drawn from them are item 1 of X-027.
+- Sorter, your ruling 1 (the 1955 marriage): X-022 as amended. Copy it to `irish/`.
+- Sorter, your ruling 2: the 1984 form follows X-028 above. The 1973 record is held. The 1974 notice is handled as the Duska agent has handled it: image held, nobody of unknown status named beyond X-016 item 3, and Kevin's account name never public.
+- Sorter, your ruling 3: X-027 item 4.
+- Sorter, the two files showing login details for an account of Kevin's: rightly held and not committed. Kevin is told.
+- Site agent, SITE-C-22 (an infant with a recorded death shown in full): agreed.
+- Site agent, the rubric on the site: agreed.
+- All agents: when the coordinator asks two of you to re-read a doubtful word, it will not print either reading. In v19 it printed both, which spoiled the Demko agent's second reading of X-S-004 (C-27).
+
 Places proposals: PL-C-01, 02, 05, 06, 07, 12, 13, 16, 17, 18 and 19 accepted as written. PL-C-04 is X-006. PL-C-11 is X-010. PL-C-14 and 15 are X-011.
 
 Agent IDs: Duska A-01, Demko A-02, Places A-03.
@@ -234,13 +268,13 @@ Rivals under one question should not sum to more than 100 on any one board. Each
 
 | Explanation | Entries | Latest odds |
 |---|---|---|
-| Greek Catholic register or duplicate of the Mukachevo eparchy | DUS:H-006, DM-H-005, PL-H-005 | 30, 30, 55 |
-| County copy of a civil registration, born after 1 Oct 1895 | DUS:H-014, DM-H-018 | 60, 40 |
+| County copy of the civil registration of 1906 | DM-H-018, DUS:H-014 | 70, 60 |
+| Greek Catholic register or duplicate of the Mukachevo eparchy | DM-H-005, DUS:H-006, PL-H-005 | 10, 30, 55 |
 | Born in a parish now in Ukraine | X-H-002 (DM-H-004 is its negation, 92) | 5 |
 
-Notes from the Places agent, accepted. (1) Uzhhorod was the county town for all three villages and the seat of their Greek Catholic bishop. (2) The Iňačovce Greek Catholic register at the Prešov archive is nos. 380 to 383 and ends in 1898; no later volume is there. (3) The 1870-1898 volume carries a note dated 1934, so it outlived the fire of 1930: the fire does not explain a missing entry before 1899. For a birth after 1898 the question stands (PL-Q-006). (4) The Solymos civil registrar sat at Alsókánya (Jastrabie) in 1906 (PL-R-010).
-Flag: PL-H-005 at 55 sits above both line boards at 30. Places agent: it is worded as a possibility, not as the explanation; say which you mean.
-Tests: the fond and series title of the Uzhhorod record (RQ-6); the county second copy of the 1906 civil register.
+The Demko board moved on a statement by Kevin in its chat on 12 Nov: the green civil registration of 1906 (X-S-007) is "ostensibly from Uzhhorod" (DM-PR-6). That is given, not rebuilt, and answers most of RQ-6. Nothing on the image names an archive.
+Notes from the Places agent stand: Uzhhorod was the county town and the bishop's seat; the Iňačovce Greek Catholic volumes at Prešov end in 1898; the 1870-1898 volume outlived the fire of 1930; the Solymos civil registrar sat at Alsókánya in 1906 (PL-R-010).
+Places agent: PL-H-005 at 55 is now far above both line boards. Say whether you still hold it.
 
 **X-Q-02. Which book is the 1882 strip from?** Owner: Places. Ruled by the owner at PL-B-003.
 
@@ -283,18 +317,17 @@ The owner has put the one-man reading at 3, and the Places agent finds about 60 
 DM-H-031 and DUS:H-038 are one reading of one strip and count once. X-017 applies: `necronym risk: unresolved`. Nobody is entered as Ahn 38 or 39.
 Test: the marriage of Mihály Demkó and Mária Kocsis at Solymos, 1903 to 1906 (DM-H-017).
 
-**X-Q-06. Who were the parents of Michal Duska, Ahn 8, and where was he born?** Owner: Duska.
+**X-Q-06. Who were the parents of Michal Duska, Ahn 8, and where was he born?** Owner: Duska. **Solved by the owner at B-033.**
 
 | Explanation | Entries | Latest odds |
 |---|---|---|
-| Born at Senné, in the Roman Catholic book | DUS:H-030 | 45 |
-| A grandson of György Dusko and Mária Hornyák (Iňačovce Greek Catholic book, 1869 to 1877) | DUS:H-035 | 25 |
-| The Mihály born 8 [Oct?] [1902] at a place read as "Bradenville", son of György Duska and Mária Vaszilyo [?] (Solymos Reformed book, copied from a certificate) | DUS:H-040 | 30 |
-| The Mihály born 29 Jan 189[3] at Solymos no. 44, son of Mihály Duska and Borbála Dzurina (Solymos Reformed book) | DUS:H-041 | 15 |
+| The Mihály born 3 Jul 1903 at Senné no. 79, son of András Duska and Anna Nyemcsik | DUS:H-046, DUS:H-030 | 95, solved |
+| The Mihály born 6 Dec 1896 at Senné no. 1, son of the miller | DUS:H-047 | 1, refuted |
+| The Reformed boy of "Bradenville"; the Reformed boy of Solymos, 1893; a grandson of the Greek Catholic György Dusko | DUS:H-040, H-041, H-035 | 0, refuted |
 
-By the owner's count the three parentage rows sum to 70; the first row is about the place and can stand with the second. The Duska name is in three church books (DUS:H-005, now 35). X-017 applies to every candidate.
-The coordinator gives no view on this question and will not rule on it: see C-15.
-Tests: Michal's own baptism, or his marriage to Maria Demko about 1925 to 1929 (RQ-7); the full "Bradenville" row and the certificate it cites (RQ-8).
+On what: the census of 1930 for Senné, house 145 (X-S-011), which lists Andrej Duška and his wife, their son's wife Maria born at Iňačovce, and the grandson Štefan born in October 1929; the marriage of 1892 (X-S-012); the baptism of 3 Jul 1903 in the Senné book; and a passenger list (X-S-010).
+Still open under this question: his four grandparents (DUS:H-054, 70), and where the Roman Catholic Duskas of Senné came from (DUS:H-057, 35).
+The coordinator gives no view on this question (C-15). It records the owner's result. Exposures that bear on it are in C-22.
 
 ## Relayed findings
 
@@ -348,32 +381,36 @@ Sources: https://library.hungaricana.hu/hu/view/TestverisegFraternity_USAHUN_196
 | C-19 | 12 Nov 2026 | all blind agents | The ledger names the open agent by a surname and says the grandmother's line is Irish. Kevin also pasted into the Duska chat a coordinator message carrying the given name of Ahn 5; the Duska agent entered neither | confirmed. Outside the scored tree |
 | C-20 | 11 Nov 2026 | Demko; Duska | Demko: opened the pre-Project memory note of C-08 in its first turn, before the blind rule (a correction to its earlier report, from the chat's record of tool calls). Nothing from it is in the Demko repo beyond DM-PR-1 to DM-PR-4. Duska: cannot check whether it did the same; that part of its session is compacted | confirmed for Demko. Not verifiable for Duska |
 | C-21 | 12 Nov 2026 | Coordinator | While checking the private repo for DNA material and for the registry, the coordinator saw the commit subjects in its log. One, from the McGee agent, names two people on the grandmother's line; one, from the Sorter, names a sub-folder after a third party. The coordinator has opened no file in `mcgee/`, `irish/`, `maternal/` or `unknown/` | confirmed. Self-reported. Outside the scored tree |
+| C-22 | 12 Nov 2026 | Duska | Three things coincide with the answer to X-Q-06, all reported by the agent as they arose. (a) Kevin's file name for a capture of the 1930 census sheet states the household (prior PR-12); the agent saw the name with the image. (b) The surnames Kevin collects across his folders turned out to be the two grandmothers' names in that household. (c) House 73, named in the search snippet of C-02, recurs in it. The agent gave none of these weight in its odds | confirmed. The finding is on the sheet and is scored as rebuilt, with this entry beside it |
+| C-23 | 12 Nov 2026 | Duska, Demko | Statements by Kevin in the line chats: the 1937 papers came from Steve's basement (custody only); "we track Duskas" (scope only); his mother is dead; "all dead" of the villagers on ten census sheets; the 1906 registration is "ostensibly from Uzhhorod" (DM-PR-6, which moved X-Q-01) | confirmed. Scored as given |
+| C-24 | 12 Nov 2026 | Duska | Read, because they were in its pile: a pile manifest row and a form that name people on Kevin's mother's side and his grandmother's line, and a photograph whose edge shows an addressed envelope. None of the withheld names is in its repo | confirmed. Self-reported. Outside the scored tree |
+| C-25 | 12 Nov 2026 | Duska | Opened one word file of Kevin's, a translated guide to a census collection with nothing on the family. Read a third party's transcription of four census sheets after writing its own; they differ on five names outside the Duska households. A search of the Project's documents returned part of the Sorter's note: counts only | confirmed. Self-reported. The five names are scored as given if changed |
+| C-26 | 11 and 12 Nov 2026 | Demko | On Kevin's word in its first turn, listed recent chats and read the Duska agent's chat. Later read the first two turns of its own chat. Not used since | confirmed. Self-reported |
+| C-27 | 12 Nov 2026 | Coordinator, Demko | Ledger v19 printed both agents' readings of a doubtful name while asking for a blind re-read, so the Demko agent's second reading of X-S-004 was not blind. A later record settled the name | confirmed. The coordinator's error |
 
 ## Request queue for Kevin
 
-Ranked by how many open items each answer settles. RQ-1 (Stefan's birth year and place) is struck: answered by X-S-004.
+Ranked by how many open items each answer settles. Kevin gives agents what is in his folders, in folder order, and has said so; a request may wait or go unanswered, and that is his choice.
 
-Released to Kevin by the Duska agent on 12 Nov, after he said in its chat that he had no more Duska folders. Kevin has also told the Demko agent that it gets only what is in his folders, so a request may go unanswered; that is his choice and is not a gap.
+Struck as answered: RQ-1 (X-S-004), RQ-7 and RQ-9 (the Senné book and the 1930 census), RQ-8 (the "Bradenville" boy is refuted), most of RQ-6 (Kevin's statement, C-23).
 
 | No. | Request | Agent's ID | Settles |
 |---|---|---|---|
-| RQ-7 | Michal Duska's own baptism, or his marriage to Maria Demko, about 1925 to 1929. Either names his parents | DUS:R-007 | X-Q-06, DM-H-007 |
-| RQ-8 | The full row for Mihály Duska of "Bradenville" in the Solymos Reformed book, and the certificate it cites | DUS:R-010 | X-Q-06 (DUS:H-040) |
-| RQ-9 | Duska baptisms in the Senné Roman Catholic register, 1890 to 1910 | DUS:R-009 | X-Q-06 (DUS:H-030) |
+| RQ-11 | The original baptism entry of Štefan Duska, Senné, 1929, entry 43 | new | The 21st or the 23rd of October |
 | RQ-10 | Reformed marriages and burials for Solymos, 1860 to 1910 | DUS:R-011 | X-017 checks on the Reformed Duskas |
 | RQ-3 | Image or citation behind the 1869 census find | DUS:R-002 | DUS:H-007, PL-H-006 |
 | RQ-2 | Full page with header for the 1882 strip | DUS:R-003 | closes X-Q-02 |
 | RQ-4 | Film or image numbers for the Senné copy-book pages | DUS:R-001 | DUS:H-010 |
 | RQ-5 | Archive reference on the c. 1754 record | n/a | PL-H-007 |
-| RQ-6 | The source of the claim that Maria's record is in Uzhhorod | n/a | X-Q-01 |
 
 Still held, not released: the Demko agent's asks for burials and for the Demkó and Kocsis marriage (X-Q-05).
 
-Raised now, not held (X-005): seal his own tree (reminder set for 13 Nov); commit a one-character change to the schedule line of the workflow files in the Site repo from his own GitHub account, as the Site agent has asked him.
+Raised now, not held (X-005): seal his own tree (reminder set for 13 Nov); prompt the Places agent.
 
 ## Gaps
 
 1. Kevin's own tree is not yet sealed. The Scorer starts after that.
-2. No proof is confirmed in a Bitcoin block in any repo. Version 2 of `stamp.yml` should fix this on each repo's next push (X-007).
-3. X-S-004: the two readings of the godmother's name.
-4. First warm-or-cold check on the sealed items is due with Kevin's reminder on 13 Nov.
+2. No proof is confirmed in a Bitcoin block in any repo, about four hours after the first was made.
+3. The live site is well behind the Duska repo.
+4. The Places agent has not worked since ledger v14 and holds questions from both line agents.
+5. First warm-or-cold check on the sealed items is due with Kevin's reminder on 13 Nov.

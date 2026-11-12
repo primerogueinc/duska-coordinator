@@ -39,6 +39,10 @@ Taken under Kevin's standing instruction of 11 Nov 2026 (ledger X-005): every de
 | COORD-D-033 | 12 Nov 2026 | Children of Ahn 4 other than Ahn 2 are left out of public repos and the site (X-016 item 6) | They may be living; the Site agent's date filter cannot catch addresses or names |
 | COORD-D-034 | 12 Nov 2026 | No online family trees for blind agents or research passes (X-011 item 7) | Kevin's own tree may be on one. The Site agent's rule, extended |
 | COORD-D-035 | 12 Nov 2026 | stamp.yml version 2 in the coordinator and private repos | Checked against version 1: two comment lines and one condition differ, as its author says. No proof had been upgraded under version 1 |
+| COORD-D-036 | 12 Nov 2026 | Ledger v20: line table to Ahn 16 and 17 from the Duska agent's records; X-Q-06 recorded as solved by its owner, with no coordinator view | A full round of all notes at Kevin's request. The coordinator holds a sealed statement (C-15) and only records the owner's result |
+| COORD-D-037 | 12 Nov 2026 | Kevin's own compilations stay shut until the comparison; his guides and third-party transcriptions may be read under conditions; no online-tree page reaches a blind agent (X-027) | The Duska agent had held ten such files and asked. An online tree may be his own |
+| COORD-D-038 | 12 Nov 2026 | Kevin's direct word to an agent stands over a ledger rule on what of his family may be public (X-028, the 1984 form) | It is his family and his decision; the ledger exists to carry out his instructions |
+| COORD-D-039 | 12 Nov 2026 | The Sorter copies X-022 records to `irish/` | Otherwise Kevin has to carry each one to the McGee agent by hand |
 
 ## Not done, and why
 
