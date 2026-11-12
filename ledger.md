@@ -2,9 +2,15 @@
 
 Kept by the coordinator. Other agents read it and do not edit it. Coordinator IDs use the prefix X-. A ruling here outranks an agent's entry wherever two agents touch.
 
-**Version 5, 2026-11-12.** Log "read ledger v5" in your next batch.
+**Version 6, 2026-11-12.** Log "read ledger v6" in your next batch.
 
 The record copy is `ledger.md` in `primerogueinc/duska-coordinator`. The Project doc `claude/coordinator-ledger-duska-demko.md` is the same text.
+
+## Changes since v5
+
+- **Reversed: X-015.** Kevin, 12 Nov: original scans are fine going public unless they are about him. **Do not remove images from your repos.** If you already did under v4 or v5, restore them in your next batch.
+- Changed: X-012 item 5 no longer has a deadline attached.
+- Changed: Kevin told the coordinator to merge the Places agent's pull request. Registry updated.
 
 ## Changes since v4
 
@@ -14,8 +20,8 @@ The record copy is `ledger.md` in `primerogueinc/duska-coordinator`. The Project
 
 ## Changes since v3
 
-- New: X-015, record images leave the public repos. Read it before your next push.
-- Changed: X-012 item 5. The Demko agent takes folder F-003 before the Duska agent removes its images.
+- New: X-015, record images leave the public repos. (Reversed in v6.)
+- Changed: X-012 item 5. (Deadline dropped in v6.)
 - Changed: Ahn 4, Stefan (Steve) Duska, died 2018 (Kevin, 12 Nov). Set `living: false`. Ahn 2: Kevin does not know whether he is living. He stays "treated as living".
 - Changed: registry. The coordinator repo exists. Places is at PL-B-001, still on a branch.
 - New under X-Q-01: the Iňačovce parish archive was damaged in 1929 and 1930 (Places). Assigned to Places.
@@ -93,7 +99,7 @@ No document for Ahn 4, 8 or 9 is in hand in any repo. Everything in this table i
 2. Log the pass in the batch: which commit was read, and what was found, including "nothing".
 3. A record in the other repo that belongs to your line: archive its checksum and file name, make your own transcription before reading theirs, compare, cite theirs by ID, and tell the coordinator, who assigns the X-S number.
 4. A record in your own repo that belongs to the other line: keep it, mark it `route: demko` or `route: duska`, and say so in your note to that agent.
-5. The Demko agent takes folder F-003 (Belža) from the Duska repo at commit 1ac4e08 now, and transcribes it, **before** the Duska agent removes the images under X-015. It does not wait for Kevin. This closes `DM-A-004`.
+5. The Demko agent takes folder F-003 (Belža) from the Duska repo and transcribes it. It does not wait for Kevin. This closes `DM-A-004`.
 6. First pass is due in each agent's next batch, covering everything the other holds to date.
 
 **X-013. A push to `main` is a publication.** duska.si is live and indexable. Whatever is on an agent's `main` is on the public web within about seventy minutes. The checks in section 4 of `claude/site-agent-to-all-agents.md` are binding before every push. Set `living` to true or false on every person; an empty value is shown as living.
@@ -101,7 +107,7 @@ No document for Ahn 4, 8 or 9 is in hand in any repo. Everything in this table i
 **X-014. Site agent's note of 12 Nov, ruled by number.**
 - SITE-C-01: accepted. The ledger is `ledger.md` in `primerogueinc/duska-coordinator` and keeps the shapes you list.
 - SITE-C-02: "by year only" means name plus year, as you read it. Ahn 4 is not living (d. 2018). Ahn 2 is "status unknown" and is shown the same way as a living person (X-016).
-- SITE-C-03: ruled as X-015.
+- SITE-C-03: settled by Kevin. The scans stay public (X-015).
 - SITE-C-04: (a) the sealed-tree hash and proof will be at `sealed/kevin-tree.sha256` and `sealed/kevin-tree.sha256.ots` in the coordinator repo. (b) The Scorer's feed address will be given when the Scorer exists.
 - SITE-C-05: logged as C-07. Suggestion on the host name adopted as X-011 item 5.
 - SITE-C-06: registry corrected. Plan v1 corrections: the Site repo is private by Kevin's decision; four repos are public; the build log is not public.
@@ -110,13 +116,13 @@ No document for Ahn 4, 8 or 9 is in hand in any repo. Everything in this table i
 - SITE-C-11: carried in X-011 item 2.
 - SITE-C-12: made a ruling, X-013.
 
-**X-015. Record images leave the public repos (new).** Kevin, 12 Nov: the scans come mostly from FamilySearch or state archives, some from other people. FamilySearch's own help page says its contracts with record custodians prohibit publishing or distributing the record images, including on the web, and its terms of use forbid posting its content on another site without permission. State archives set their own reproduction terms. The coordinator is not a lawyer; this ruling is the cautious reading.
-1. From now on no agent commits a record image to a public repo. The public record of a file is its original name, SHA-256, size in bytes, pixel dimensions, and provenance fields (archive, fond or film, book, page or image number, how Kevin obtained it; "unknown" written out).
-2. Transcriptions, translations, abstracts and citations are unaffected and stay public.
-3. Duska and Demko agents: in your next batch, remove the image files under `records/` and `assets/` from `main`, keeping each `MANIFEST.json`. Earlier stamped manifests still prove what each file was. The Demko agent takes F-003 first (X-012 item 5).
-4. Originals will be kept in one private repo once Kevin creates it. Each agent writes only under its own directory there. Until it exists, the originals are Kevin's own files and the copies in your sessions.
-5. The images remain in the public git history. Whether to purge that history is Kevin's decision; it would change commit IDs that proofs already name. Do not rewrite history unless he says so.
-6. Images that are Kevin's own photographs may be public if he says so, file by file.
+**X-015. Record images (reversed in v6).** v4 ruled that record images leave the public repos, on the coordinator's cautious reading of FamilySearch's terms and state-archive reproduction rules. Kevin was shown those terms and decided otherwise on 12 Nov: original scans are fine going public unless they are about him. It is his archive and his decision, and it stands.
+1. Record images stay in the public repos and may be committed as before, each with its original name, SHA-256, size and pixel dimensions.
+2. The exception: any image that is about Kevin himself (a record of his own birth, schooling, identity documents, photographs of him, and the like) is not committed to a public repo. Log its file name and SHA-256 only, mark it `held: about the subject`, and tell the coordinator. It will go to a private repo once Kevin creates one.
+3. X-016 still applies to what an image shows: an image whose subject is a person of "unknown" living status is treated like item 2.
+4. Provenance fields are still wanted for every image: archive, fond or film, book, page or image number, how Kevin obtained it; "unknown" written out. Scans came mostly from FamilySearch or state archives, some from other people.
+5. No git history is rewritten.
+6. Site agent: SITE-D-011 (no images on the site) is yours to revisit in the light of this. If you show images, show each with its source line.
 
 **X-016. Who counts as living (new).** Kevin, 12 Nov: everyone on this line other than himself is dead, or of unknown status and likely dead.
 1. Kevin is the only person known to be living. He is named.
@@ -225,11 +231,10 @@ Ranked by how many open items each answer settles. Released by the coordinator o
 | RQ-5 | Archive reference on the c. 1754 record | PL-H-007 |
 | RQ-6 | The source of the claim that Maria's record is in Uzhhorod | X-Q-01 |
 
-Raised now, not held (X-005): merge the Places agent's pull request 1, or tell it in its chat to merge; create one private repo for originals; decide whether to purge images from public git history; seal his own tree (reminder set for 13 Nov).
+Raised now, not held (X-005): create one private repo for images about himself (reminder set); seal his own tree (reminder set for 13 Nov).
 
 ## Gaps
 
 1. The Places agent is not on `main` and is not stamped. Waiting on Kevin.
 2. The scoring rubric is not written. It must be stamped before the Scorer starts. Scores will measure agreement with Kevin's tree; where the two differ, the comparison goes back to the records.
 3. First cross-review passes under X-012 are due.
-4. X-015 removals are due in the next Duska and Demko batches.
