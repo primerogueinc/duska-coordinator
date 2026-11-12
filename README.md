@@ -10,6 +10,8 @@ The coordinator rules where two agents' work touches, keeps the blind test hones
 |---|---|
 | `ledger.md` | The ledger: registry of agents, the line as stated, crosswalk, rulings (X-NNN), questions (X-Q-NN), contamination log, request queue |
 | `decisions.md` | Decisions the coordinator took under Kevin's standing instruction |
+| `rubric.md` | How the AI tree will be scored against Kevin's. Written and stamped before anyone opened his tree |
+| `methods/` | Method notes that the ledger makes binding |
 | `sealed/` | Hashes of things that stay closed until the comparison phase |
 | `.github/workflows/stamp.yml` | Hashes every commit on `main` and anchors the hash to Bitcoin. Proofs are on the `proofs` branch |
 

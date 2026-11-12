@@ -30,9 +30,9 @@ Taken under Kevin's standing instruction of 11 Nov 2026 (ledger X-005): every de
 | COORD-D-024 | 12 Nov 2026 | Set up the private repo Kevin created: piles, reading rules, stamp.yml | It is the sorting table and the holding place |
 | COORD-D-025 | 12 Nov 2026 | The Sorter and the McGee agent stay in this Project; blind and open lines are fenced by rule instead (X-021) | Kevin: the Project will rebuild his whole tree in time. The real overlap is narrow: facts about Ahn 4 and his children |
 | COORD-D-026 | 12 Nov 2026 | Cut X-H-002 to 5; lifted the hold on DUS:H-016; entered the Places agent's ruling on X-Q-02 | The boards had moved and the ledger had not. The owners' evidence, not the coordinator's view, decides these |
+| COORD-D-027 | 12 Nov 2026 | Scoring rubric v1: coverage and agreement per snapshot, reported with and without facts Kevin gave; conflicts go back to the records at the end | It has to exist and be stamped before anyone opens his tree, or it will be fitted to the result |
 
 ## Not done, and why
 
 - The coordinator could not create this repo itself: its session refused to create a public repository. Kevin created it on 12 Nov.
 - The plan (`claude/coordinator-plan-duska-si.md`) is not yet copied here. Its corrections are listed in the ledger under X-014, SITE-C-06.
-- The scoring rubric is not written.
