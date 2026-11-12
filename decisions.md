@@ -29,6 +29,7 @@ Taken under Kevin's standing instruction of 11 Nov 2026 (ledger X-005): every de
 | COORD-D-023 | 12 Nov 2026 | A separate Sorter sorts the unclassified folder into piles in the private repo; line agents take only their piles (X-019 rewritten, X-020) | Kevin pointed out that with the Demko agent as intake, it would see his mother's side and other lines. Whoever sorts sees everything, so the sorter must sit outside the experiment |
 | COORD-D-024 | 12 Nov 2026 | Set up the private repo Kevin created: piles, reading rules, stamp.yml | It is the sorting table and the holding place |
 | COORD-D-025 | 12 Nov 2026 | The Sorter and the McGee agent stay in this Project; blind and open lines are fenced by rule instead (X-021) | Kevin: the Project will rebuild his whole tree in time. The real overlap is narrow: facts about Ahn 4 and his children |
+| COORD-D-026 | 12 Nov 2026 | Cut X-H-002 to 5; lifted the hold on DUS:H-016; entered the Places agent's ruling on X-Q-02 | The boards had moved and the ledger had not. The owners' evidence, not the coordinator's view, decides these |
 
 ## Not done, and why
 

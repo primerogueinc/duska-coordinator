@@ -2,9 +2,18 @@
 
 Kept by the coordinator. Other agents read it and do not edit it. Coordinator IDs use the prefix X-. A ruling here outranks an agent's entry wherever two agents touch.
 
-**Version 15, 2026-11-12.** Log "read ledger v15" in your next batch.
+**Version 16, 2026-11-12.** Log "read ledger v16" in your next batch.
 
 The record copy is `ledger.md` in `primerogueinc/duska-coordinator`. The Project doc `claude/coordinator-ledger-duska-demko.md` is the same text.
+
+## Changes since v15
+
+- Caught up: the registry, all four X-Q tables and "Relayed findings" were behind the boards, as the Places agent said twice. They now match the repos at the commits in the registry.
+- X-Q-02: the Places agent's ruling as owner is entered. Greek Catholic register of Čičarovce, 93.
+- X-H-002 cut from 15 to 5 on the Demko agent's evidence.
+- X-Q-04: the hold on DUS:H-016 is lifted.
+- For the Demko agent: "confirmed" is not a ledger status. See the note under X-009.
+- New contamination entries C-17 and C-18.
 
 ## Changes since v14
 
@@ -72,18 +81,18 @@ The record copy is `ledger.md` in `primerogueinc/duska-coordinator`. The Project
 - New for both line agents: a Greek Catholic family of Senné is in the Iňačovce book (Places). See "Relayed findings".
 - New contamination entries C-10 to C-12.
 
-## Registry (as seen 2026-11-12, about 01:15 Toronto)
+## Registry (as seen 2026-11-12, about 02:05 Toronto)
 
 | Agent | Repo | Read from | Commit | Last batch | Stamped |
 |---|---|---|---|---|---|
-| Duska A-01 | `primerogueinc/genealogu-duska-1` | `main` | see repo | B-014 | yes |
-| Demko A-02 | `primerogueinc/genealogy-demko-1` | `main` | 035aef0 | DM-B-002 | yes |
-| Places A-03 | `primerogueinc/duska-and-demko-villages` | `main` | 6eab2b2 | PL-B-002 | yes. `main` fast-forwarded by the coordinator on Kevin's instruction, 12 Nov |
-| Site | `Prime-Rogue-Inc-Corporate/duska-si-frontend` (private) | `deploy`, live at https://duska.si | n/a | SITE-B-003 | yes, served at /proofs/site/ |
-| Coordinator | `primerogueinc/duska-coordinator` | `main` | this commit | COORD-B-013, ledger v15 | yes |
-| Sorter | `primerogueinc/kevin-js-duska-jr-genealogy-private` (private), piles | this Project | n/a | started 12 Nov | yes, proofs private |
-| McGee | same private repo, `mcgee/` | this Project. Open, not blind (X-021) | n/a | started 12 Nov | yes, proofs private |
-| Scorer | separate Project, not started | n/a | n/a | n/a | n/a |
+| Duska A-01 | `primerogueinc/genealogu-duska-1` | `main` | 2e5f111 | B-015 | yes |
+| Demko A-02 | `primerogueinc/genealogy-demko-1` | `main` | b2bdf12 | DM-B-010 | yes |
+| Places A-03 | `primerogueinc/duska-and-demko-villages` | `main` | 641ba53 | PL-B-005 | yes |
+| Site | `Prime-Rogue-Inc-Corporate/duska-si-frontend` (private) | `deploy`, live at https://duska.si | n/a | see its note | yes, served at /proofs/site/ |
+| Coordinator | `primerogueinc/duska-coordinator` | `main` | this commit | COORD-B-014, ledger v16 | yes |
+| Sorter | `primerogueinc/kevin-js-duska-jr-genealogy-private` (private), piles | this Project. Neutral (X-021) | 41dd5ae | S-B-001: 1 file in `to-both/`, 32 in `unknown/` | yes, proofs private |
+| McGee | same private repo, `mcgee/` | this Project. Open, not blind (X-021) | 2a9dfb3 | MCGEE-S-001 | yes, proofs private |
+| Scorer | not started | n/a | n/a | n/a | n/a |
 
 ## The line as stated by Kevin
 
@@ -128,6 +137,8 @@ No document for Ahn 4, 8 or 9 is in hand in any repo. Everything in this table i
 **X-008. Citing another agent.** ID plus commit or date: `DUS:H-015 @1ac4e08`.
 
 **X-009. Context cannot solve an identity.** A person or a link is `solved` only on a record in hand with its archive reference. Without one, the cap is 70.
+
+Note for the Demko agent: your board uses the status `confirmed` (DM-H-001 at 97, DM-H-003 at 85). The ledger's statuses are open, supported, solved and refuted. If you mean solved, it needs a record in hand with its archive reference, and 85 is not a solved number. Please map each `confirmed` entry to one of the four in your next batch.
 
 **X-010. Rules of law, custom or jurisdiction need a source ID.** If recalled from training, say so; such a claim can only suggest a test. Place claims in a ruling cite a `PL-` ID. Line agents still log place leads and flag the name, as written, to the Places agent.
 
@@ -236,48 +247,57 @@ Rivals under one question should not sum to more than 100 on any one board. Each
 
 | Explanation | Entries | Latest odds |
 |---|---|---|
-| Greek Catholic register or duplicate of the Mukachevo eparchy | DUS:H-006, DM-H-005, PL-H-005 | 50, 50, 55 |
-| County copy of a civil registration, born after 1 Oct 1895 | DUS:H-014 | 35 |
-| Born in a parish now in Ukraine | X-H-002 (DM-H-004 is its negation, 65) | 15 |
+| Greek Catholic register or duplicate of the Mukachevo eparchy | DUS:H-006, DM-H-005, PL-H-005 | 30, 30, 55 |
+| County copy of a civil registration, born after 1 Oct 1895 | DUS:H-014, DM-H-018 | 60, 40 |
+| Born in a parish now in Ukraine | X-H-002 (DM-H-004 is its negation, 92) | 5 |
 
-Notes from the Places agent, accepted. (1) Uzhhorod was the county town for all three villages and the seat of their Greek Catholic bishop; a record held there does not tell the two sides of today's border apart. (2) The Iňačovce Greek Catholic church archive was badly damaged by lightning on 6 July 1929 and by fire on 1 April 1930 (PL-S-046), and the indexed register stops in 1898. If later books were lost, a copy held elsewhere would be the surviving record. This does not choose between the rows.
-Assigned to Places: which Iňačovce volumes after 1898 survive, and where.
-Tests: Maria's birth year; the fond and series title of the Uzhhorod record; her birthplace as written in her marriage entry or in Stefan's baptism.
+Notes from the Places agent, accepted. (1) Uzhhorod was the county town for all three villages and the seat of their Greek Catholic bishop. (2) The Iňačovce Greek Catholic register at the Prešov archive is nos. 380 to 383 and ends in 1898; no later volume is there. (3) The 1870-1898 volume carries a note dated 1934, so it outlived the fire of 1930: the fire does not explain a missing entry before 1899. For a birth after 1898 the question stands (PL-Q-006). (4) The Solymos civil registrar sat at Alsókánya (Jastrabie) in 1906 (PL-R-010).
+Flag: PL-H-005 at 55 sits above both line boards at 30. Places agent: it is worded as a possibility, not as the explanation; say which you mean.
+Tests: the fond and series title of the Uzhhorod record (RQ-6); the county second copy of the 1906 civil register.
 
-**X-Q-02. Which book is the 1882 strip from?** Owner: Places.
+**X-Q-02. Which book is the 1882 strip from?** Owner: Places. Ruled by the owner at PL-B-003.
 
 | Explanation | Entries | Latest odds |
 |---|---|---|
-| Roman Catholic register of Čičarovce | DUS:H-015 | 35 |
-| A Greek Catholic register | DM-H-011 | 50 |
-| "Viszoka" is not Vysoká nad Uhom | PL-H-008 | 20 |
+| Greek Catholic register of Čičarovce, Prešov state archive, catalogue no. 182 | PL-H-009, DM-H-011 | 93, 93 |
+| Roman Catholic register of Čičarovce | DUS:H-015 | 3 |
+| "Viszoka" is not Vysoká nad Uhom | PL-H-008 | 3, refuted |
 
-Coordinator's view: the officiant reading "Csurgovich" carries a question mark on both boards, and the claim about the surname is recalled (X-010). Test: identify the priest and the parish he served in 1882; find the page header.
+Grounds, from the Places agent: Vysoká's Greek Catholics were a filial of Čičarovce from 1806 to the 1940s (PL-S-071); Ján Csurgovics was Greek Catholic parish priest there from 1882 to 1886 (PL-S-072); the archive's catalogue lists Vysoká in that parish's district (PL-S-075); three Demko documents carry the priests' signatures in the right order. The question mark on the priest's name is dropped; the surname claim no longer rests on recall. Not `solved`: no header and no archive image is in hand (X-009). RQ-2 is the closing test.
 
 **X-Q-03. How is Maria Demko related to the Viszoka 132 household?** Owner: Demko.
 
 | Explanation | Entries | Latest odds |
 |---|---|---|
-| Daughter of György Demkó and Mária Hreskó, sister of Mihály | DUS:H-013, DM-H-009 | 20, 30 |
-| Daughter of Mihály b. 1882 | DUS:H-012, DM-H-010 | 30, 20 |
-| Not of that household | DM-H-012 (carries X-H-001) | 50 |
+| Daughter of Mihály b. 1882, granddaughter of György Demkó and Mária Hreskó | DUS:H-012, DM-H-010 | 70, 70 |
+| Daughter of György Demkó and Mária Hreskó, sister of Mihály | DUS:H-013, DM-H-009 | 1, 3, both refuted |
+| Not of that household | DM-H-012 | 10 |
 
-Tests: Stefan's birth year (RQ-1); any record giving her age or her father's name.
+The two line boards agree. X-017 applies to the first row: it needs Mihály b. 1882 to have lived, and it needs the Mária of 1906 to be Ahn 9 and not an elder sister who died (DM-H-024, 8). The Places agent confirms the Iňačovce Greek Catholic burials run to 1898 in all four volumes; after that a burial search needs another source.
+Tests: Stefan's birth year (RQ-1); the marriage entry of Ahn 8 and Ahn 9 (DM-H-007).
 
 **X-Q-04. Are the Gönyű Demkos and the Viszoka Demkos one family?** Owner: Demko.
 
 | Explanation | Entries | Latest odds |
 |---|---|---|
-| Different families | DUS:H-016 | 65 |
-| One György, two marriages | DM-H-013 | 5 |
+| Different families | DUS:H-016 | 70 |
+| One György, two marriages | DM-H-013 | 3 |
+| A son of the Gönyű couple among the soldiers' cards | DM-H-029 | 40 |
+
+The owner has put the one-man reading at 3, and the Places agent finds about 60 km, two counties, two eparchies and no estate or migration link (PL-N-022, PL-N-023). The coordinator's hold on DUS:H-016 at 65 is lifted.
 
 ## Relayed findings
 
-From the Places agent (PL-B-001), for both line agents. Cite the PL- IDs, not this ledger.
+From the Places agent, for both line agents. Cite the PL- IDs, not this ledger.
 
-- In 1851 Senné had 580 Roman Catholics and 238 Greek Catholics; in 1904, 484 and 231. Greek Catholics of Senné were registered at Iňačovce (PL-H-001, supported, 90). "Senné and Iňačovce" in family memory can be one household. Bears on DUS:H-004, DUS:H-005 and DM-H-003.
+- Greek Catholics of Senné were registered at Iňačovce: PL-H-001, solved at 96, on an 1861 entry in the Iňačovce Greek Catholic book with the residence Szenna (DM-D-037). In 1851 Senné had 580 Roman Catholics and 238 Greek Catholics; in 1904, 484 and 231. "Senné and Iňačovce" in family memory can be one household.
 - Szenna lay in the Nagykapos district and Solymos in the Szobránc district (PL-H-004, supported, 85).
-- Vysoká nad Uhom stayed on the Slovak side of the border protocol of 4 April 1939 (PL-S-036). Do not expect Hungarian wartime records for a Viszoka household.
+- Vysoká nad Uhom was inside Slovakia from April 1939 to 1944 (PL-H-012, supported, 80; an earlier pass said the opposite). Certain: Čičarovce, the Greek Catholic parish seat for Vysoká, went to Hungary in November 1938, so a Viszoka Greek Catholic's parish office was abroad from 1938 to 1945.
+- Limits for the burial search of X-017: Senné Roman Catholic births at Prešov begin in 1866. Pavlovce Roman Catholic births begin in 1869 and deaths in 1878. Iňačovce Greek Catholic burials are in all four volumes to 1898.
+- The 1894 and 1895 copies are from the Greek Catholic register of Belža, Košice state archive, 1791-1896 (PL-H-010, supported, 85; PL-R-053).
+- Sztrajnyán is Stráňany. Lasztomér is Lastomír, with a Greek Catholic register of its own from 1860 (PL-H-013, open, 65). Enyiczke is Haniska by Košice.
+- Epidemic timeline: `data/epidemics.json` in the Places repo, PL-E-001 to PL-E-011. No cholera wave is yet documented for the three villages; the timeline is regional until burials are counted (PL-Q-007).
+- A conflict recorded, not resolved: the archive's catalogue puts Stretavka's Greek Catholics under Slavkovce; one strip has a Kis Szeretva family in the Iňačovce book.
 
 ## Cross-line analysis
 
@@ -290,7 +310,7 @@ Sources: https://library.hungaricana.hu/hu/view/TestverisegFraternity_USAHUN_196
 | ID | Statement | Conf. | Status |
 |---|---|---|---|
 | X-H-001 | Maria Demko is not from the Viszoka 132 household | n/a | handed to Demko, now DM-H-012 |
-| X-H-002 | Maria was born in a parish now in Ukraine | 15 | open under X-Q-01 |
+| X-H-002 | Maria was born in a parish now in Ukraine | 5 | open under X-Q-01. Cut on DM-H-004 at 92 and DM-H-015 |
 | X-H-003 | Viszoka is a third village on the Demko side | 50 | handed to Places (PL-P-037, PL-H-008) |
 
 ## Contamination log
@@ -313,6 +333,8 @@ Sources: https://library.hungaricana.hu/hu/view/TestverisegFraternity_USAHUN_196
 | C-14 | 12 Nov 2026 | Coordinator, then all | Kevin told the coordinator to research epidemics and to tell the agents about reused names of dead children. A hint about method, relayed on his instruction as X-017. He later made clear this is knowledge any genealogist of the region would have, not a statement about his own tree (X-017 item 6). v9 of this ledger wrongly recorded it as a belief about this family for a few minutes | confirmed. A reminder about method, not a fact about the line |
 | C-15 | 12 Nov 2026 | Coordinator | Kevin made a second statement to the coordinator. Its text is sealed until the comparison phase. SHA-256 of the passage as he typed it: `cccb77ce2d3362e52992fb22a71bdd3def2d86d816b03072f8b686ee8501d962` | sealed. The coordinator is exposed; no other agent is |
 | C-16 | 12 Nov 2026 | Coordinator, then all | Kevin said his folder `AAAA Unclassified` holds important Demko documents among material from other lines (X-019) | confirmed. Given by Kevin |
+| C-17 | 11 Nov 2026 | Places | Opened Kevin's pre-Project memory note (the note of C-08) in its first turn, before the blind rule. The content is no longer in its context. Nothing from it is in the Places repo beyond one general clause, now removed. Self-reported, checked against the chat's record of tool calls | confirmed |
+| C-18 | standing | all blind agents | The system shows every chat in this Project a one-line description of Kevin's memory notes on each turn. Per the Places agent, one line names a surname from his mother's side and mentions an Irish side. Since 12 Nov the Project's own memory also holds the Sorter's sorting surnames. Duska and Demko agents: say in your next note whether you are shown these lines and whether you have opened either note | open. Kevin can stop it with the Project's memory setting |
 
 ## Request queue for Kevin (held)
 
@@ -332,4 +354,6 @@ Raised now, not held (X-005): seal his own tree (reminder set for 13 Nov).
 ## Gaps
 
 1. The scoring rubric is not written. It must be stamped before the Scorer starts. Scores will measure agreement with Kevin's tree; where the two differ, the comparison goes back to the records.
-2. First cross-review passes under X-012 are due.
+2. The Duska and Demko agents have no access to the private repo yet; Kevin is granting it in their chats.
+3. The Sorter put 32 of its first 33 files in `unknown/`. That pile is Kevin's to rule on.
+4. C-09 and C-18 are open.
