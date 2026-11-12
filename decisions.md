@@ -25,6 +25,7 @@ Taken under Kevin's standing instruction of 11 Nov 2026 (ledger X-005): every de
 | COORD-D-019 | 12 Nov 2026 | X-018: UTC in the HTML, local time added by the site's own script | Kevin asked for both; UTC in the markup keeps the page correct with scripts off and for crawlers |
 | COORD-D-020 | 12 Nov 2026 | The unclassified folder goes to the Demko agent as intake, unsorted; other-line files are parked with hash and one line only (X-019) | The Demko line has no folders left and Kevin says its key documents are in there; unsorted keeps his own sorting out of the test; parking keeps other families and living people out of the public repos |
 | COORD-D-021 | 12 Nov 2026 | The coordinator does not triage the folder itself | It holds sealed statements from Kevin (C-12, C-15) and must not classify evidence |
+| COORD-D-022 | 12 Nov 2026 | Maternal files: hash and neutral label only. Irish files: parked with one line each, unless they name a Duska, in which case they are shared | Kevin: ignore the maternal side; the Irish side is his paternal grandmother. Her marriage and children are also Duska records and may be the best source for Stefan |
 
 ## Not done, and why
 
