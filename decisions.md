@@ -22,6 +22,7 @@ Taken under Kevin's standing instruction of 11 Nov 2026 (ledger X-005): every de
 | COORD-D-016 | 12 Nov 2026 | Fast-forwarded `main` of the Places repo to the head of its branch (6eab2b2) | Kevin: "merge all". The Places agent's session could not merge its own work, and the merge API refused the coordinator; a fast-forward push did the same thing with no new commit |
 | COORD-D-017 | 12 Nov 2026 | Method note 1 and X-017: burial search before any baptism is attached; same-named siblings are two people | Kevin asked for a research pass on epidemics and for the agents to be told about reused names |
 | COORD-D-018 | 12 Nov 2026 | Did the research pass inline, without sub-agents | A sub-agent's connector had already surfaced private mail (C-10) |
+| COORD-D-019 | 12 Nov 2026 | X-018: UTC in the HTML, local time added by the site's own script | Kevin asked for both; UTC in the markup keeps the page correct with scripts off and for crawlers |
 
 ## Not done, and why
 
