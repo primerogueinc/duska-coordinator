@@ -2,9 +2,16 @@
 
 Kept by the coordinator. Other agents read it and do not edit it. Coordinator IDs use the prefix X-. A ruling here outranks an agent's entry wherever two agents touch.
 
-**Version 6, 2026-11-12.** Log "read ledger v6" in your next batch.
+**Version 7, 2026-11-12.** Log "read ledger v7" in your next batch.
 
 The record copy is `ledger.md` in `primerogueinc/duska-coordinator`. The Project doc `claude/coordinator-ledger-duska-demko.md` is the same text.
+
+## Changes since v6
+
+- New: X-017, epidemics and reused names. Read the method note `claude/coordinator-method-note-epidemics-necronyms.md` (in the coordinator repo at `methods/epidemics-and-necronyms.md`). Its section 3 is binding.
+- Changed: registry. The Places agent's work is on `main` and stamped. The coordinator fast-forwarded its `main` on Kevin's instruction ("merge all").
+- New contamination entry C-14.
+- Assigned to Places: an epidemic timeline for the three villages.
 
 ## Changes since v5
 
@@ -35,9 +42,9 @@ The record copy is `ledger.md` in `primerogueinc/duska-coordinator`. The Project
 |---|---|---|---|---|---|
 | Duska A-01 | `primerogueinc/genealogu-duska-1` | `main` | 1ac4e08 | B-005 | yes |
 | Demko A-02 | `primerogueinc/genealogy-demko-1` | `main` | 035aef0 | DM-B-002 | yes |
-| Places A-03 | `primerogueinc/duska-and-demko-villages` | `places-agent/baseline` | d6ebf27 | PL-B-001 | no. Its merge to `main` was refused by its own session; waiting on Kevin |
+| Places A-03 | `primerogueinc/duska-and-demko-villages` | `main` | 6eab2b2 | PL-B-002 | yes. `main` fast-forwarded by the coordinator on Kevin's instruction, 12 Nov |
 | Site | `Prime-Rogue-Inc-Corporate/duska-si-frontend` (private) | `deploy`, live at https://duska.si | n/a | SITE-B-003 | yes, served at /proofs/site/ |
-| Coordinator | `primerogueinc/duska-coordinator` | `main` | this commit | COORD-B-002, ledger v5 | yes |
+| Coordinator | `primerogueinc/duska-coordinator` | `main` | this commit | COORD-B-004, ledger v7 | yes |
 | Scorer | separate Project, not started | n/a | n/a | n/a | n/a |
 
 ## The line as stated by Kevin
@@ -131,6 +138,14 @@ No document for Ahn 4, 8 or 9 is in hand in any repo. Everything in this table i
 4. A person born 100 years ago or more with no death record: `living: false`.
 5. Collateral relatives follow the same four rules. No living third party is added to any public file on the strength of "likely dead".
 
+**X-017. Epidemics and reused names (new; Kevin, 12 Nov).** Infant mortality in nineteenth-century Hungary was about 300 per 1,000, and the name of a dead child was commonly given to a later one. The rules in section 3 of the method note are binding. In short:
+1. A baptism is not an identity. Before attaching one to an adult, search the burials for fifteen years after it, then search forward for a later child of the same name. Log the search.
+2. Two baptisms with one name and one set of parents are two people until a record shows otherwise.
+3. Where the burial register is not in hand, mark the link `necronym risk: unresolved`. The cap of 70 applies.
+4. A missing burial in an epidemic year proves nothing. Cholera waves: 1831-32, 1848-49, 1854-55, 1866-67, 1872-73, 1892-93.
+5. A change of mother's name between two baptisms to one father is a second marriage until shown to be a second man.
+6. Applies now to `DUS:K-001` (Mihály Demkó, 1882), `DUS:K-004` and `DUS:K-007`: none has been shown to have survived childhood. `DUS:H-012` and `DM-H-010` depend on K-001 surviving.
+
 Places proposals: PL-C-01, 02, 05, 06, 07, 12, 13, 16, 17, 18 and 19 accepted as written. PL-C-04 is X-006. PL-C-11 is X-010. PL-C-14 and 15 are X-011.
 
 Agent IDs: Duska A-01, Demko A-02, Places A-03.
@@ -217,6 +232,7 @@ Sources: https://library.hungaricana.hu/hu/view/TestverisegFraternity_USAHUN_196
 | C-11 | 12 Nov 2026 | Coordinator, then all | Kevin stated that Ahn 4 died in 2018 and was known as Steve | confirmed. Scored as given |
 | C-12 | 12 Nov 2026 | Coordinator | Kevin made a statement to the coordinator about his own tree. Its text is sealed until the comparison phase. SHA-256 of the sentence as he typed it: `371f5ae96718806a6422e8dab1169356c773e80922c5c358a5a71e85fb31a33f` | sealed. The coordinator is exposed; no other agent is |
 | C-13 | 12 Nov 2026 | Coordinator, then all | Kevin stated that nobody on this line other than himself is known to be living | confirmed. Scored as given |
+| C-14 | 12 Nov 2026 | Coordinator, then all | Kevin told the coordinator to research epidemics and to tell the agents about reused names of dead children. A hint about method, relayed on his instruction as X-017. It may reflect what he knows of his own tree | confirmed. Hint given by Kevin |
 
 ## Request queue for Kevin (held)
 
@@ -235,6 +251,5 @@ Raised now, not held (X-005): create one private repo for images about himself (
 
 ## Gaps
 
-1. The Places agent is not on `main` and is not stamped. Waiting on Kevin.
-2. The scoring rubric is not written. It must be stamped before the Scorer starts. Scores will measure agreement with Kevin's tree; where the two differ, the comparison goes back to the records.
-3. First cross-review passes under X-012 are due.
+1. The scoring rubric is not written. It must be stamped before the Scorer starts. Scores will measure agreement with Kevin's tree; where the two differ, the comparison goes back to the records.
+2. First cross-review passes under X-012 are due.

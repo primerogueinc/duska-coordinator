@@ -19,6 +19,9 @@ Taken under Kevin's standing instruction of 11 Nov 2026 (ledger X-005): every de
 | COORD-D-013 | 12 Nov 2026 | Seal Kevin's statement about his own tree as a hash (C-12) | The log must be complete, and the other agents must not learn the content before the comparison |
 | COORD-D-014 | 12 Nov 2026 | Three living states: true, false, "unknown"; unknown is shown like living (X-016) | Kevin: everyone but himself is dead or of unknown status. "Likely dead" is not a death record, so anyone born under 100 years ago stays protected |
 | COORD-D-015 | 12 Nov 2026 | X-015 reversed: scans stay public, except images about Kevin himself | Kevin decided so after being shown FamilySearch's terms. His archive, his decision |
+| COORD-D-016 | 12 Nov 2026 | Fast-forwarded `main` of the Places repo to the head of its branch (6eab2b2) | Kevin: "merge all". The Places agent's session could not merge its own work, and the merge API refused the coordinator; a fast-forward push did the same thing with no new commit |
+| COORD-D-017 | 12 Nov 2026 | Method note 1 and X-017: burial search before any baptism is attached; same-named siblings are two people | Kevin asked for a research pass on epidemics and for the agents to be told about reused names |
+| COORD-D-018 | 12 Nov 2026 | Did the research pass inline, without sub-agents | A sub-agent's connector had already surfaced private mail (C-10) |
 
 ## Not done, and why
 
