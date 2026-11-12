@@ -33,6 +33,12 @@ Taken under Kevin's standing instruction of 11 Nov 2026 (ledger X-005): every de
 | COORD-D-027 | 12 Nov 2026 | Scoring rubric v1: coverage and agreement per snapshot, reported with and without facts Kevin gave; conflicts go back to the records at the end | It has to exist and be stamped before anyone opens his tree, or it will be fitted to the result |
 | COORD-D-028 | 12 Nov 2026 | DNA waits: for the blind lines until the paper tree is frozen; for the McGee question until its agent names the comparison it needs. Raw genotype data is never uploaded (X-023) | Used early, DNA would hide what the documents alone could show. Match lists name living people, and a raw file is health-grade data no genealogy agent needs |
 | COORD-D-029 | 12 Nov 2026 | Curiosities are looked for and counted in every batch (X-024); agents read the ledger each batch without a version number from Kevin (X-025) | Kevin asked for curiosities throughout. One unchanging paste line is easier for him than tracking versions |
+| COORD-D-030 | 12 Nov 2026 | Ledger v19: line table rewritten from the agents' records; X-S-004 to 009 assigned; X-Q-05 and X-Q-06 opened | The line agents had documented Ahn 4, 8 and 9 hours earlier and said so in five notes. The coordinator had not read them |
+| COORD-D-031 | 12 Nov 2026 | No coordinator view on X-Q-06 | The coordinator holds a sealed statement from Kevin (C-15) and has told him it will not rule on that question |
+| COORD-D-032 | 12 Nov 2026 | Line agents never push to the private repo; held images stay with Kevin | They have read access only, and a write path into folders they may not read was a contradiction the Demko agent pointed out |
+| COORD-D-033 | 12 Nov 2026 | Children of Ahn 4 other than Ahn 2 are left out of public repos and the site (X-016 item 6) | They may be living; the Site agent's date filter cannot catch addresses or names |
+| COORD-D-034 | 12 Nov 2026 | No online family trees for blind agents or research passes (X-011 item 7) | Kevin's own tree may be on one. The Site agent's rule, extended |
+| COORD-D-035 | 12 Nov 2026 | stamp.yml version 2 in the coordinator and private repos | Checked against version 1: two comment lines and one condition differ, as its author says. No proof had been upgraded under version 1 |
 
 ## Not done, and why
 
