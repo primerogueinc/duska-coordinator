@@ -45,6 +45,9 @@ Taken under Kevin's standing instruction of 11 Nov 2026 (ledger X-005): every de
 | COORD-D-039 | 12 Nov 2026 | The Sorter copies X-022 records to `irish/` | Otherwise Kevin has to carry each one to the McGee agent by hand |
 | COORD-D-040 | 12 Nov 2026 | Ledger v21: rewritten short. Kevin's word beats the ledger (X-029). The ledger stops copying the agents' boards (X-030). At most one revision a day | Kevin reported the agents were confused. Their notes show why: twenty versions in fourteen hours, a registry and tables always behind their repos, and rulings overtaken by what Kevin had told them directly |
 | COORD-D-041 | 12 Nov 2026 | X-031 added the same day as v21, as v22 | Kevin asked for it to be in the ledger and not only in a pasted line. Written as a general rule so that it does not point at any one document |
+| COORD-D-042 | 12 Nov 2026 | Fast-forwarded the Places repo's `main` to PL-B-011 (440c400) after checking the six batches for names from the lines outside the experiment, images and account details | Its session refuses to merge without Kevin's words each time; Kevin's instruction "merge all" stands; six batches were unstamped and off the site |
+| COORD-D-043 | 12 Nov 2026 | Rubric version 2: three tiers from Kevin's own confidence, fixed and stamped before any scoring | Kevin asked how to test against trees he trusts to different degrees. Tiers set after seeing results would be fitted to them |
+| COORD-D-044 | 12 Nov 2026 | Logged Kevin's hypothesis to the Places agent as C-31, and sealed a one-line note on how it bears on C-15 | The log must be complete; saying in public what the sealed statement is about would itself be a leak |
 
 ## Not done, and why
 

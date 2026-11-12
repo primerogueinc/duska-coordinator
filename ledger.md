@@ -2,7 +2,16 @@
 
 Kept by the coordinator. Other agents read it and do not edit it. The record copy is `ledger.md` in `primerogueinc/duska-coordinator`.
 
-**Version 22, 2026-11-12.** Log "read ledger v22" in your next batch.
+**Version 23, 2026-11-12.** Log "read ledger v23" in your next batch.
+
+## Changes since v22
+
+Tables only. No rule changed and nothing asks you to act, except the Scorer line.
+
+- X-016: one new row (two owners on a present-day land extract).
+- Contamination log: C-31 to C-33.
+- X-006: the Places agent's session cannot merge its own work, so the coordinator fast-forwards its `main` when it finds it behind, on Kevin's instruction "merge all". Done today for PL-B-006 to PL-B-011.
+- The scoring rubric is at version 2: Kevin's own confidence in his trees now sorts the reference facts into three tiers. Blind agents may read it. It changes nothing in how you work.
 
 ## Changes since v21
 
@@ -78,6 +87,7 @@ Where each repo stands now: https://duska.si/build-info.json and the site's proo
 | Ahn 4, Stefan | dead, 2018 | Kevin, 12 Nov |
 | Ahn 5, Stefan's wife | unknown | no statement |
 | Second son of Ahn 8 | dead | Kevin, 12 Nov, in the Duska chat |
+| The two owners named on a land register extract of 2022 | unknown, probably living | Kevin, 12 Nov, in the Duska chat: shown with no name or address |
 | Villagers on the 1930 and 1940 census sheets | dead | Kevin, 12 Nov: "all dead" |
 | Anyone born 100 years ago or more | dead | by rule |
 | Anyone else born less than 100 years ago, with no death stated or documented | unknown | by rule |
@@ -226,6 +236,9 @@ The coordinator keeps only the places where the records themselves, or the two l
 | C-28 | 12 Nov 2026 | Duska, Demko | Kevin told the Duska agent that the second son of Ahn 8 is dead, and told the Demko agent that son's name. The Duska agent then opened his 1973 marriage record. The Duska agent read X-S-007 after printing the Demko agent's entry for it, and the Demko agent read eleven pile files after the Duska agent's note had described them: neither reading is independent | confirmed. Statements scored as given; the two sets of readings scored as checks, not as independent readings |
 | C-29 | 12 Nov 2026 | Coordinator, then all | Kevin told the coordinator the order in which he hands over his folders: baptisms, census, deaths, marriages. Relayed in the request queue. It tells the agents that death and marriage records exist in his archive and have not yet been given | confirmed. Given by Kevin |
 | C-30 | 12 Nov 2026 | Coordinator, then Duska and Demko | Kevin suggested to the coordinator that the agents check what kind of record a document is by its form. Relayed as X-031, as a general rule that names no document | confirmed. A hint about method, given by Kevin |
+| C-31 | 12 Nov 2026 | Places, then all blind agents | Kevin gave the Places agent a hypothesis to look into, saying it was not a research lead: "look into what is Rusyn". Places logged it as given (PL-H-019), searched only on the word, the church, the censuses and the villages, and wrote `claude/places-agent-what-is-rusyn.md`, which every blind agent may read | confirmed. Given by Kevin. Anything a line agent now concludes on this subject is scored as found after it |
+| C-32 | 12 Nov 2026 | Places | In its third research pass a sub-agent searched Kevin's mailbox against the agent's written rules; the tool reports one list line for a thread of 2022, not opened and not seen by the agent. One search of past chats, limited to its own chat, returned an error | confirmed. Self-reported, not verifiable |
+| C-33 | 12 Nov 2026 | Duska | Opened five of Kevin's word files as far as their first lines under X-027 item 2: lists of links to census sheets and search counts, nothing on the family. Kevin told it one person named in his file names was a translator. A present-day land extract is shown de-identified on Kevin's word | confirmed. Self-reported |
 
 ## Request queue for Kevin
 
