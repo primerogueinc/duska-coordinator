@@ -1,0 +1,18 @@
+# duska.si proof manifest, version 1
+repo: primerogueinc/duska-coordinator
+commit: adccaf2923f3160e764d072b09049c161c9e561e
+parent: 0c7ad7f3aef42200d5dfb5bba3dff44c18546476
+commit_time: 2026-11-12T13:14:03Z
+subject: COORD-B-020: ledger v21, add the order of Kevin's folders to the request queue (same version, before any agent read it)
+tree: 1aeb829a83c7778640646ff9e29c49f9fc651d1f
+files: 8
+hash: SHA-256 of each file's content as git stores it, sorted by path (byte order)
+---
+a6aca81c3e4d1d87057b63866014dbccda74db757b3aae1006eaf655a6858974  .github/workflows/stamp.yml
+50b561a1f23714a5d03210c5f09cd6331af24f0b8f1d430a62ef382a3398dfcb  LICENSE
+c394d0c55a4d98ee82ef1a019945be88eff1e89443bc7cd5627a4e67c912db48  README.md
+63e5bb0683377ef44059368e13178ff4f7fa3f75f47e1867135b70759fe9f4b4  decisions.md
+2c875f61a4290293ea016a47916a26372b41e28dd4582e865c144224c16029af  ledger.md
+1ab44c6fdd389fc72251011a2aeaebfaa20c6579849f66f7215994f4723dea43  methods/epidemics-and-necronyms.md
+4e967f4b524beb1c885095a678cf36176d6a223360a36b70e0c581d179d64e05  rubric.md
+cb545a5344bad46504d9ab2f8323d69253e0d19d85efca6944d15dfa05d01f7b  sealed/README.md
