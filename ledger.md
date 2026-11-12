@@ -2,9 +2,14 @@
 
 Kept by the coordinator. Other agents read it and do not edit it. Coordinator IDs use the prefix X-. A ruling here outranks an agent's entry wherever two agents touch.
 
-**Version 17, 2026-11-12.** Log "read ledger v17" in your next batch.
+**Version 18, 2026-11-12.** Log "read ledger v18" in your next batch.
 
 The record copy is `ledger.md` in `primerogueinc/duska-coordinator`. The Project doc `claude/coordinator-ledger-duska-demko.md` is the same text.
+
+## Changes since v17
+
+- New: X-024, curiosities in every batch (Kevin, 12 Nov).
+- New: X-025, read the ledger at the start of every batch without being told a version number.
 
 ## Changes since v16
 
@@ -31,7 +36,7 @@ Earlier change lists (v2 to v14) are in this file's git history in `primeroguein
 | Demko A-02 | `primerogueinc/genealogy-demko-1` | `main` | b2bdf12 | DM-B-010 | yes |
 | Places A-03 | `primerogueinc/duska-and-demko-villages` | `main` | 641ba53 | PL-B-005 | yes |
 | Site | `Prime-Rogue-Inc-Corporate/duska-si-frontend` (private) | `deploy`, live at https://duska.si | n/a | see its note | yes, served at /proofs/site/ |
-| Coordinator | `primerogueinc/duska-coordinator` | `main` | this commit | COORD-B-016, ledger v17 | yes |
+| Coordinator | `primerogueinc/duska-coordinator` | `main` | this commit | COORD-B-017, ledger v18 | yes |
 | Sorter | `primerogueinc/kevin-js-duska-jr-genealogy-private` (private), piles | this Project. Neutral (X-021) | 271e67c | S-B-004: 1 file in `to-both/`, 43 in `unknown/` | yes, proofs private |
 | McGee | same private repo, `mcgee/`. Batches `MG-B-NNN` | this Project. Open, not blind (X-021) | 08cce9c | MG-B-005 | yes, proofs private |
 | Scorer | not started | n/a | n/a | n/a | n/a |
@@ -184,6 +189,16 @@ Note for the Demko agent: your board uses the status `confirmed` (DM-H-001 at 97
 4. Open line (McGee): DNA may be used earlier, through a DNA agent only, when the McGee agent has named the specific comparison it needs and what each result would prove.
 5. A DNA agent, when started, is open, private, and the only reader of `dna/`. It reports conclusions to other agents with living matches under neutral labels, never by name.
 6. Nothing from DNA goes into a public repo, a Project doc or the site: no match names, no shared-match lists, no segment data, no ethnicity percentages.
+
+**X-024. Curiosities, every batch (new; Kevin, 12 Nov).** Kevin likes the curiosities and funny finds and wants them kept up throughout, not only when something leaps out.
+1. Duska, Demko and Places agents: in every batch, as you read, look for what a reader would repeat to someone else. A priest's aside, a note in a margin, an odd cause of death, a strange occupation, a coincidence of dates, a scandal, a remark on the weather or the harvest, a clerk's spelling, a rule or a fee that sounds absurd now.
+2. Log each in your curiosities list with: the source ID, the original wording, your translation, one line on why it is worth keeping, and a tone: `funny`, `odd`, `sad` or `history`.
+3. Every batch blurb ends with "Curiosities: N", including "Curiosities: 0". Zero is an honest answer; do not pad.
+4. Deaths and misfortunes are recorded straight, not played for laughs. Nothing about a living person, and nothing from the lines outside this experiment.
+5. A curiosity is not evidence and moves no confidence. If it also bears on the line, log it as a lead as well and cross-reference the two.
+6. Site agent: newest first, each with its source link and tone.
+
+**X-025. Read the ledger every batch (new).** At the start of every batch, read this ledger as it stands and log the version number you read. Kevin will no longer quote a version number when he prompts you. "Read the latest ledger and act on it" means this.
 
 Places proposals: PL-C-01, 02, 05, 06, 07, 12, 13, 16, 17, 18 and 19 accepted as written. PL-C-04 is X-006. PL-C-11 is X-010. PL-C-14 and 15 are X-011.
 

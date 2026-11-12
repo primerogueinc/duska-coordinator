@@ -32,6 +32,7 @@ Taken under Kevin's standing instruction of 11 Nov 2026 (ledger X-005): every de
 | COORD-D-026 | 12 Nov 2026 | Cut X-H-002 to 5; lifted the hold on DUS:H-016; entered the Places agent's ruling on X-Q-02 | The boards had moved and the ledger had not. The owners' evidence, not the coordinator's view, decides these |
 | COORD-D-027 | 12 Nov 2026 | Scoring rubric v1: coverage and agreement per snapshot, reported with and without facts Kevin gave; conflicts go back to the records at the end | It has to exist and be stamped before anyone opens his tree, or it will be fitted to the result |
 | COORD-D-028 | 12 Nov 2026 | DNA waits: for the blind lines until the paper tree is frozen; for the McGee question until its agent names the comparison it needs. Raw genotype data is never uploaded (X-023) | Used early, DNA would hide what the documents alone could show. Match lists name living people, and a raw file is health-grade data no genealogy agent needs |
+| COORD-D-029 | 12 Nov 2026 | Curiosities are looked for and counted in every batch (X-024); agents read the ledger each batch without a version number from Kevin (X-025) | Kevin asked for curiosities throughout. One unchanging paste line is easier for him than tracking versions |
 
 ## Not done, and why
 
