@@ -1,6 +1,8 @@
 # Scoring rubric
 
-**Version 5, 2026-11-12.** Written by the coordinator before any agent has opened Kevin's tree. Each commit of this file is stamped; that proof is the evidence it came first.
+**Version 6, 2026-11-13.** Written by the coordinator before any agent has opened Kevin's tree. Each commit of this file is stamped; that proof is the evidence it came first.
+
+Change in version 6: six clarifications, A to F, listed in section 9. The Scorer applied them as its own readings in the first snapshot, Kevin accepted them, and they are written in here so that they are rules. This is the first version made after the Scorer opened the tree, so it holds clarifications only.
 
 Change in version 5, three clarifications in section 1, asked for by the Scorer before it read any AI repository: people who are living or of unknown status; exact dates; a parent link is two facts.
 
@@ -18,7 +20,7 @@ In scope: Ahn 1, 2, 4, 8 and 9, and every ancestor of Ahn 8 and Ahn 9. Out of sc
 
 **People who are living or whose status is unknown.** Ahn 1 and Ahn 2 stay in scope whatever their status. The status of each person is the one in the table under X-016 in the coordinator's ledger. For a person who is living or unknown, only the facts the agents are allowed to publish are scored: identity, each parent link, and the year and the city of an event. An exact date, or a place finer than a city, has the outcome **withheld**. A withheld fact is outside every numerator and denominator and is counted in a line of its own. If the status of a person changes in the ledger, later snapshots are scored on the new status and earlier rows are not changed.
 
-A spouse who is out of scope (Ahn 3, Ahn 5) is matched by name only.
+A spouse or a parent who is out of scope (Ahn 3, Ahn 5) is matched by name only.
 
 A **fact** is one of these, for one person in scope:
 
@@ -34,6 +36,8 @@ A **fact** is one of these, for one person in scope:
 | Rite or denomination | same |
 
 **Two facts, not one.** The link to the father and the link to the mother are scored each on its own. If the AI tree names one parent and that one agrees, that is one match and one missing.
+
+**A parent with no entry of their own.** If the AI tree has no person entry for a parent but names that parent in a note inside `people.json`, the AI tree has stated the link.
 
 **Exact dates.** For every event the year is the fact in the headline numbers. The exact date is scored as well, by the same outcomes, but outside the headline: it has its own coverage and agreement, reported beside them. A date within one year is a near match on the year and a conflict on the exact date.
 
@@ -62,12 +66,18 @@ Taken from the repos' proof levels and the coordinator's contamination log, not 
 4. Inferred, with no record naming it.
 5. Contaminated: reached by way of an exposure in the contamination log.
 
+Three rules for class 3, given by Kevin:
+- A fact Kevin stated to an agent before that agent found it on a record stays "given", even if a record now carries it.
+- A fact whose proof level in the repos is `stated`, and whose source is a statement by Kevin, is "given" even if no entry in the contamination log lists it.
+- A prior that names places for the family in general does not make one person's birth place "given" when that place is on a record of that person. It is class 1 or 2, with the prior noted beside it.
+
 ## 4. Headline numbers, per snapshot
 
 - **Coverage** = matches and near matches, divided by all facts in Kevin's tree that are in scope.
 - **Agreement** = matches and near matches, divided by matches, near matches and conflicts.
 - Each is reported twice: for all facts, and with classes 3 and 5 of section 3 removed. The second pair is the real measure of the rebuild.
-- Each is also broken down by generation.
+- Each is also broken down by generation. Where a generation in scope holds one person, its numbers stay in the private results file and out of the public feed, because they would be results for one person.
+- Agreement is worked out by the same formula on every tier. A conflict on tier B or C lowers the agreement number for that tier; section 6a says only that it is not called an AI error.
 - Extras are counted and listed, never scored as errors: the AI may have found what Kevin did not.
 
 ## 5. Confidence
@@ -122,3 +132,16 @@ Each sealed statement in `sealed/` is opened at the end and scored on its own: f
 ## 9. Changing this rubric
 
 Any change is a new version in this file with the reason, and is stamped. After the Scorer has opened the tree, only clarifications are allowed, and each is listed here with its date.
+
+Clarifications made after the Scorer opened the tree:
+
+| Date | Section | Clarification |
+|---|---|---|
+| 13 Nov 2026 | 3 | A. Stated by Kevin before the agent found it on a record: stays "given" |
+| 13 Nov 2026 | 3 | B. Proof level `stated` with Kevin as the source: "given", with or without a log entry |
+| 13 Nov 2026 | 3 | C. A general prior about places does not make a recorded birth place "given" |
+| 13 Nov 2026 | 1 | D. A parent named only in a note in `people.json` counts as stated; an out-of-scope parent is matched by name only |
+| 13 Nov 2026 | 4, 8 | E. A generation of one person is not broken out in the public feed |
+| 13 Nov 2026 | 4, 6a | F. One agreement formula on every tier |
+
+All six were applied by the Scorer in its first snapshot (feed row 1, scored under version 5) before they were written here.

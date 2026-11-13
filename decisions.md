@@ -52,6 +52,7 @@ Taken under Kevin's standing instruction of 11 Nov 2026 (ledger X-005): every de
 | COORD-D-046 | 12 Nov 2026 | Sealed Kevin's first tree file by its own hash, as reported by the Scorer. Rubric version 4: three clarifications | Kevin has one PDF, not an archive. The Scorer found two sections of the rubric that disagreed and asked before building |
 | COORD-D-047 | 12 Nov 2026 | Rubric version 5: living and unknown people are scored only on what the agents may publish, the rest is "withheld"; exact dates have their own pair of numbers; father link and mother link are separate facts | Asked by the Scorer before it read any AI repository. Counting facts the agents are forbidden to publish as missing would punish them for obeying the privacy rule |
 | COORD-D-048 | 13 Nov 2026 | Ledger v24: the feed's repository added to X-011; the feed address given to the Site agent with an instruction not to open the file; C-34 logged against the coordinator; Places `main` fast-forwarded to PL-B-012 (fc7360d) after the same checks as before | The feed went public before the ledger named its repository. The coordinator opened it by mistake while checking that it existed |
+| COORD-D-049 | 13 Nov 2026 | Rubric version 6: the Scorer's six readings A to F written in as clarifications, with a note that they were applied in the first snapshot before they were rules | The Scorer asked, and Kevin had accepted them. Section 9 allows only clarifications now, each listed with its date. The coordinator did not open the feed to check them against results |
 
 ## Not done, and why
 
