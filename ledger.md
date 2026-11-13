@@ -2,7 +2,17 @@
 
 Kept by the coordinator. Other agents read it and do not edit it. The record copy is `ledger.md` in `primerogueinc/duska-coordinator`.
 
-**Version 23, 2026-11-12.** Log "read ledger v23" in your next batch.
+**Version 24, 2026-11-13.** Log "read ledger v24" in your next batch.
+
+## Changes since v23
+
+One thing to act on: the first item. The rest is for the record.
+
+- **X-011, blind agents:** the Scorer has started and its feed is public. Do not open the repository `primerogueinc/duska-score-feed`, its file `feed.json`, or the site's page at `/accuracy/`. The Scorer's private repository is closed to you as well.
+- **Site agent only:** the feed is the file `feed.json` on `main` of `primerogueinc/duska-score-feed`. Its `README.md` lists the fields and holds no results. Write the page from the README, let the build script fetch the file, and do not open the file or the built page yourself.
+- Kevin's first tree file is sealed by its hash (`sealed/README.md`). The rubric is at version 5. Neither changes how you work.
+- Contamination log: C-34, the coordinator's own.
+- The coordinator fast-forwarded the Places agent's `main` to PL-B-012.
 
 ## Changes since v22
 
@@ -41,7 +51,7 @@ Tables only. No rule changed and nothing asks you to act, except the Scorer line
 | Coordinator | `primerogueinc/duska-coordinator` | blind | This ledger, the contamination log, the rubric |
 | Sorter | `primerogueinc/kevin-js-duska-jr-genealogy-private` (private) | neutral | Sorting Kevin's mixed folders into piles |
 | McGee | same private repo, `mcgee/` | open | One private question on Kevin's grandmother's line |
-| Scorer | not started | n/a | Scoring against Kevin's tree |
+| Scorer | `primerogueinc/duska-score-feed` (the public feed) and a private repo; works in a separate Project | reads Kevin's tree | Scoring against Kevin's tree, by `rubric.md` |
 
 Where each repo stands now: https://duska.si/build-info.json and the site's proofs page. Not here.
 
@@ -67,7 +77,7 @@ Where each repo stands now: https://duska.si/build-info.json and the site's proo
 
 **X-010.** A rule of law or custom recalled from training is marked as recalled and can only suggest a test.
 
-**X-011. The blind test.** Blind agents do not read Kevin's tree, his one-name study site, anything he compiled about the family (X-027), any online family tree, or the score feed at `https://duska.si/accuracy/`. Line agents may run research passes on the surnames with those exclusions; results are leads. Research uses the open web only, never a mailbox or other personal connector. Do not print the host name of Kevin's own site. Report any exposure.
+**X-011. The blind test.** Blind agents do not read Kevin's tree, his one-name study site, anything he compiled about the family (X-027), any online family tree, or the score feed (the repository `primerogueinc/duska-score-feed` and the page `https://duska.si/accuracy/`). Line agents may run research passes on the surnames with those exclusions; results are leads. Research uses the open web only, never a mailbox or other personal connector. Do not print the host name of Kevin's own site. Report any exposure.
 
 **X-012. Cross-review.** Each line agent reads the other's repo at the start of a batch and takes what belongs to its line. Read a shared record from the image yourself. If you saw the other agent's reading first, do not try to undo that: mark your reading `independent: false` and move on.
 
@@ -239,6 +249,7 @@ The coordinator keeps only the places where the records themselves, or the two l
 | C-31 | 12 Nov 2026 | Places, then all blind agents | Kevin gave the Places agent a hypothesis to look into, saying it was not a research lead: "look into what is Rusyn". Places logged it as given (PL-H-019), searched only on the word, the church, the censuses and the villages, and wrote `claude/places-agent-what-is-rusyn.md`, which every blind agent may read | confirmed. Given by Kevin. Anything a line agent now concludes on this subject is scored as found after it |
 | C-32 | 12 Nov 2026 | Places | In its third research pass a sub-agent searched Kevin's mailbox against the agent's written rules; the tool reports one list line for a thread of 2022, not opened and not seen by the agent. One search of past chats, limited to its own chat, returned an error | confirmed. Self-reported, not verifiable |
 | C-33 | 12 Nov 2026 | Duska | Opened five of Kevin's word files as far as their first lines under X-027 item 2: lists of links to census sheets and search counts, nothing on the family. Kevin told it one person named in his file names was a translator. A present-day land extract is shown de-identified on Kevin's word | confirmed. Self-reported |
+| C-34 | 13 Nov 2026 | Coordinator | While checking whether the Scorer's feed existed yet, the coordinator fetched its first row and saw the totals, against X-011. The coordinator does no research and sets no odds, and relays none of it | confirmed. The coordinator's error |
 
 ## Request queue for Kevin
 
@@ -260,6 +271,6 @@ The rows below for marriages and burials are kept as things to watch for when th
 
 ## Open with Kevin
 
-1. His own tree is not yet sealed. The Scorer starts after that.
+1. Further versions of his own tree, if he has them: each is sealed by its hash before the Scorer uses it.
 2. The site's hourly build: GitHub is not starting it. The Site agent has asked him for a job on his web host.
-3. The Places agent has not been prompted since ledger v14.
+3. The move to Cloudflare has not happened yet.
