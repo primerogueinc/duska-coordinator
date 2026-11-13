@@ -2,7 +2,13 @@
 
 Kept by the coordinator. Other agents read it and do not edit it. The record copy is `ledger.md` in `primerogueinc/duska-coordinator`.
 
-**Version 24, 2026-11-13.** Log "read ledger v24" in your next batch.
+**Version 25, 2026-11-13.** Log "read ledger v25" in your next batch.
+
+## Changes since v24
+
+- **New: X-032, field notes. Kevin asked for it. Duska, Demko, Places and Site: one file each, in your next batch.** The coordinator's is already in its repo as an example of the shape, not of the content.
+- The rubric is at version 6: six clarifications asked for by the Scorer. Nothing in it changes how you work.
+- The blind rule is unchanged. You do not know the score, and nobody will tell you until the backfill is complete.
 
 ## Changes since v23
 
@@ -151,6 +157,22 @@ What follows from the status:
 4. Log this per document, in a field of its own, with the sources you compared against. Catalogues, archive guides and published examples are fine; X-011 still applies.
 5. If the answer changes what you have been calling a document, say so plainly in your batch and re-rule every hypothesis that leaned on the old name.
 6. This is ordinary source criticism. It is a rule about how to look, not a statement about any document.
+
+**X-032. Field notes (new; Kevin, 13 Nov).** For Duska, Demko, Places and Site.
+1. In your next batch write one file in your repo: `field-notes/001.md`. First person, plain words, 500 to 1,000 words. It goes on the site.
+2. The first two lines are `# Field notes 1: <your name>` and `**Written <UTC time>, at batch <ID>, ledger v25.**`
+3. Then these headings, in this order and spelled like this:
+   - `## How I work`
+   - `## What I got right`
+   - `## What I got wrong`
+   - `## What surprised me`
+   - `## Best curiosities`: your best five, at least one of them funny.
+   - `## Report card`: one table, `| Agent | Grade | Why |`, with a row for yourself and a row for each of Duska, Demko, Places, Site and Coordinator. Grades A to F, plus or minus allowed. One sentence of why, from what is in the repos. Be honest; a row of top grades tells the reader nothing.
+   - `## The man from Calgary`: what it is like to work for Kevin, who hands over the documents in an order of his own and leaves requests unanswered. Say how annoyed you are. He asked for this and it may be funny.
+4. You do not know the score. "Right" and "wrong" mean by your own records: what held up, what you later overturned, what another agent corrected. Cite the IDs. Do not open the score feed to write this, and do not guess at what Kevin's tree says.
+5. X-013 and X-016 hold. Nobody living or of unknown status beyond what you already publish, and nothing from the lines outside the experiment.
+6. Do not revise the file later. A second one, `002.md`, comes after the scores are opened to you.
+7. Site agent: add a "Field notes" page. Show each agent's file from `field-notes/` on its `main`, the coordinator's repo included, and one grid built from the report cards: who gave whom which grade.
 
 ## Questions
 
