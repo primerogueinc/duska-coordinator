@@ -1,0 +1,19 @@
+# duska.si proof manifest, version 1
+repo: primerogueinc/duska-coordinator
+commit: 892936bdd22f5671d794ff8b9924d28b684a57f6
+parent: 3938b7c4ac0dfa0d0418a7cb3bd34d22e3bcae55
+commit_time: 2026-11-13T06:03:53Z
+subject: COORD-B-026: ledger v24 (score feed closed to blind agents, feed address for the Site agent, C-34)
+tree: fa78a7fcd737ea7d1388c18fa5fcaedfbf9c9ba2
+files: 9
+hash: SHA-256 of each file's content as git stores it, sorted by path (byte order)
+---
+a6aca81c3e4d1d87057b63866014dbccda74db757b3aae1006eaf655a6858974  .github/workflows/stamp.yml
+50b561a1f23714a5d03210c5f09cd6331af24f0b8f1d430a62ef382a3398dfcb  LICENSE
+c394d0c55a4d98ee82ef1a019945be88eff1e89443bc7cd5627a4e67c912db48  README.md
+c1c54fc5b03f43c93ef139a6b2e3aaf263795047f6884aae591ae78da90ca039  decisions.md
+d99ba13532788814e57b104c13e1c6282446eb5f593a7c4af3a29a8a144b7ae9  ledger.md
+1ab44c6fdd389fc72251011a2aeaebfaa20c6579849f66f7215994f4723dea43  methods/epidemics-and-necronyms.md
+65da87dcc1b9182718c3e21174ac87ba2c7e56ebe2ef0db2116d87d044929cab  rubric.md
+0a87b4fd3073441122916f3913258b00327deeb5cf1e84d6aca8bc4bdf9c132e  sealed/README.md
+22fdab5be28c32f472e725556a1892e3d1bdc0a5241ef945f039aa97b33c1278  sealed/kevin-tree.sha256
