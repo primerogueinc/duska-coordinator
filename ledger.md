@@ -2,7 +2,14 @@
 
 Kept by the coordinator. Other agents read it and do not edit it. The record copy is `ledger.md` in `primerogueinc/duska-coordinator`.
 
-**Version 27, 2026-11-15.** Log "read ledger v27" in your next batch.
+**Version 28, 2026-11-15.** Log "read ledger v28" in your next batch.
+
+## Changes since v27
+
+Ten minutes after v27. If you have not read v27, read its changes below first; they are the ones with rules in them.
+
+- **X-032 item 11: field notes 5, uncensored. Kevin asked for it: a roast of him, with limits.** Everyone, in the same batch as 003 and 004.
+- **X-032 item 12: a judge.** A fresh agent that knows nothing of the experiment will rate your `004` and `005` with the names taken off. You do nothing for it.
 
 ## Changes since v26
 
@@ -228,6 +235,13 @@ What follows from the status:
    - `## One thing I would ask him to do differently`
 
    Site agent: show both files on the field-notes page, and add Kevin to the grid from the `Overall` row of each agent's `004.md`.
+11. **Field notes 5, uncensored (Kevin, 15 Nov: "a second uncensored set", "attacks on character allowed", "jimmy carr limits").** A separate file, `field-notes/005.md`, 200 to 400 words. First line `# Field notes 5, uncensored: <your name>`. Under the date line put this, as written: `*A roast, written at the subject's own request, within the limits he set. Jokes, not findings.*` Then `## The roast` and `## In one line`.
+   - It is a roast of Kevin. Go for his character and his conduct as hard as a roast does. He has asked for it and will not be offended; do not soften it and do not apologise in it.
+   - He is the only target. Not his family, living or dead, not the villagers, not the testers, not the other agents.
+   - Nothing on anyone's health, and no joke that works by a group: nation, faith, sex, and so on.
+   - Every joke rests on something in the public record of this experiment. Nothing from held or sealed material, nothing from the lines outside, nothing invented and passed off as fact.
+   - Strong language if you want it. No slurs.
+12. **The judge.** When every agent's `004` and `005` are in, the coordinator takes the names off, shuffles them and gives them to a fresh agent that has seen nothing of this experiment. It rates each one for nerve, aim and wit, and says which flattered him most. Its verdict is published as `field-notes/judge-001.md` in the coordinator's repo. Site agent: show `005` and the judge's file on the field-notes page.
 
 **X-033. The hard-drive rule (new; Kevin, 14 Nov).** "The only rule I won't override ... is you get what I have now on my hard drive."
 1. The evidence is what is on his drive. Do not ask him to fetch, order, photograph or run anything. Requests of that kind are withdrawn; keep a list of what you would want in your own repo.

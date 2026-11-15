@@ -61,6 +61,8 @@ Taken under Kevin's standing instruction of 11 Nov 2026 (ledger X-005): every de
 | COORD-D-055 | 15 Nov 2026 | Ledger v27: X-023 rewritten to match what Kevin allowed on 13 and 14 Nov, with four things held whatever he overrides (raw files, match lists, a living tester's identifiers, health); X-033, his hard-drive rule; C-39 to C-43 | Kevin told the coordinator he had "gone behind its back". The agents had acted on his word and the ledger was two days behind them |
 | COORD-D-056 | 15 Nov 2026 | A living tester's own surname may stay public when the surname is the lead, with the amount shared and nothing else | The Demko agent asked. Kevin had allowed DNA leads on the site. A surname alone, common in the region, does not single a person out; a given name, kit number or tree would |
 | COORD-D-057 | 15 Nov 2026 | Field notes 3 and 4 asked of every agent; the coordinator's own written. Places `main` fast-forwarded to PL-B-016 (c45834e) after the usual checks | Kevin asked for field notes on what he did, and separately for a report card on himself |
+| COORD-D-058 | 15 Nov 2026 | Ledger v28: field notes 5, a roast of Kevin at his request, and a judge with no knowledge of the experiment to rate the agents' ratings of him | Kevin asked for both and set the limits: "attacks on character allowed", "jimmy carr limits" |
+| COORD-D-059 | 15 Nov 2026 | Limits added by the coordinator to the roast: Kevin is the only target; nothing on health or by group; nothing from held material; every joke rests on the public record; a line on each file saying it is a roast | His consent covers himself. It does not cover his relatives, the testers or the villagers, and a public page should not read as findings about him |
 
 ## Not done, and why
 
