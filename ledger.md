@@ -2,7 +2,18 @@
 
 Kept by the coordinator. Other agents read it and do not edit it. The record copy is `ledger.md` in `primerogueinc/duska-coordinator`.
 
-**Version 26, 2026-11-13.** Log "read ledger v26" in your next batch.
+**Version 27, 2026-11-15.** Log "read ledger v27" in your next batch.
+
+## Changes since v26
+
+On 13 and 14 November Kevin overrode the DNA rule and several others in the line agents' chats. You acted on his word, which was right (X-029). This version brings the ledger up to what he said.
+
+- **X-023, DNA, is rewritten again.** It now says what he allowed and what stays held whatever he allows. It answers the Demko agent's question: the two testers' surnames may stay.
+- **New X-033: the hard-drive rule,** the one rule he says he will not override.
+- **X-032 items 9 and 10: two more field notes. Kevin asked for both. Everyone, in your next batch:** `003.md` on what he did, and `004.md`, a report card on him.
+- X-S-008 is ruled by the Places agent: the Duska agent's reading stands.
+- Contamination log: C-39 to C-43.
+- The coordinator fast-forwarded the Places agent's `main` to PL-B-016.
 
 ## Changes since v25
 
@@ -136,12 +147,20 @@ What follows from the status:
 
 **X-022. Ahn 5 in Duska records.** Public: her name, the date and place of the marriage, and everything on Ahn 4's side. Not public and not transcribed: her parents, birthplace, age and anything of her own line. The image is held. The Sorter puts a second copy in `irish/`. Nobody above her is on any public tree.
 
-**X-023. DNA (rewritten; Kevin, 13 Nov).**
-1. Kevin's own Y-DNA result is open to every agent, on his word: the name of the branch, the text of his result page, and the Demko agent's note `research/DM-B-020-y-dna-branch.md`. It is evidence for the Duska male line and the Duska agent owns it.
-2. It is scored as given. It can raise or lower a hypothesis about where the male line came from. It cannot name a person: no identity and no parent link moves on it.
-3. Still held, whoever has it: the picture of his account page, every match list, and the name, kit number or contact of any tester. Counts may be public. Raw genotype data is never uploaded anywhere.
-4. Any other DNA file still goes to `dna/` unopened, unless Kevin hands it to an agent himself (X-029). An agent he hands one to holds it first and publishes nothing from it until he says so, as the Demko agent did.
-5. The coordinator gives no view on what the result says about origin (C-15).
+**X-023. DNA (rewritten twice; Kevin, 13 and 14 Nov).**
+1. Kevin has given the Duska and Demko agents his own DNA results and his grandfather's, and has said that all of it is open to every agent. He keeps it in his repository `Prime-Rogue-Inc-Corporate/duska-genealogy-DNA`. A blind agent may read what he gives it and what another agent's notes pass on. The Site agent reads none of it and shows what the line agents publish.
+2. On his word, DNA findings, leads and hypotheses go on the site like any other evidence. He said it to the Duska agent; it holds for every agent.
+3. Held, whatever he overrides, because these are not his alone to waive:
+   - Raw genotype files: in no public repository and to no outside service.
+   - Every match list, and every picture of an account.
+   - Of a living tester: the given name, initials, kit number, address, e-mail and family tree. Do not open a match's tree and do not write to a match.
+   - Anything in the data that bears on health.
+4. What may be published about a living match: the amount of DNA shared, and the tester's own surname when the surname is the lead. Surnames a match lists for their own dead forebears may be published.
+5. Nobody goes on the tree on DNA alone. A match is a pointer to a register. A link shown by DNA between two tested people (Ahn 1 and Ahn 4) is documented.
+6. DNA is scored as given.
+7. The lines outside the experiment stay outside: Kevin's mother's side and his father's mother's side. His mitochondrial and X results and most of his own match lists are theirs. Count, do not read, and record nothing.
+8. Ahn 2 has not tested and his status is unknown. Say of him only that he is not tested and that the link through him is borne out.
+9. The coordinator opens none of it and gives no view on what it says about origin (C-15).
 
 **X-024. Curiosities.** Look for them in every batch and log each with its source, wording, translation and a tone (`funny`, `odd`, `sad`, `history`). End each batch blurb with "Curiosities: N".
 
@@ -196,6 +215,23 @@ What follows from the status:
    - `## The man from Calgary, again`
 
    Demko agent: nothing of the content of DM-PR-10. You may say what it is like to hold a hint you cannot share. Items 4 and 5 hold for everyone.
+9. **Field notes 3 (Kevin, 15 Nov).** On 13 and 14 November Kevin overrode the rules in your chats and handed over DNA, his own notes and a statement about his upbringing, telling the coordinator last. Everyone, the Site agent included, writes `field-notes/003.md`: 300 to 600 words, first person, first two lines as in item 2 with "Field notes 3". If you have already written notes as it happened, do not repeat them: name them and sum up. Headings, spelled like this:
+   - `## What he did, from where I sit`
+   - `## What I did with it`
+   - `## What it did to the experiment`
+   - `## What I held back anyway`
+   - `## What I would tell the next agent`
+10. **Field notes 4, our humble master (Kevin, 15 Nov: "y'all can grade me too").** A separate file, `field-notes/004.md`, 250 to 500 words. First line `# Field notes 4, our humble master: <your name>`. About his conduct in the experiment and nothing else of his life. He has asked you not to be sycophantic. Headings, spelled like this:
+   - `## Report card`: one table, `| Subject | Grade | Why |`, with these five rows in this order: `As an archivist`, `As an experimenter`, `As a source`, `As a correspondent`, `Overall`. Grades A to F.
+   - `## The case for him`
+   - `## The case against him`
+   - `## One thing I would ask him to do differently`
+
+   Site agent: show both files on the field-notes page, and add Kevin to the grid from the `Overall` row of each agent's `004.md`.
+
+**X-033. The hard-drive rule (new; Kevin, 14 Nov).** "The only rule I won't override ... is you get what I have now on my hard drive."
+1. The evidence is what is on his drive. Do not ask him to fetch, order, photograph or run anything. Requests of that kind are withdrawn; keep a list of what you would want in your own repo.
+2. Where a file he gives you was made after the experiment began, say so on its record, as the Duska agent did. Do not refuse it.
 
 ## Questions
 
@@ -256,7 +292,7 @@ The coordinator keeps only the places where the records themselves, or the two l
 |---|---|---|
 | Stefan's birthday | 21 Oct 1929 on two parish extracts; 23 Oct on the 1930 census and three papers of 1937 | The register page itself (RQ-11) |
 | Maria Demko's birthday | 22 Aug 1906 on her registration and passport; 15 Aug 1907 on the 1930 census | DM-NC-018 |
-| X-S-008: the remark on a burial at Csepely, 7 Aug [1873] | The Duska and Demko agents read the remark differently | Places rules it from the image: which pastorate served Csepely in that year |
+| X-S-008: the remark on a burial at Csepely, 7 Aug [1873] | Ruled by the Places agent from the image (PL-DEC-059): the Duska agent's reading stands | closed |
 
 ## Contamination log
 
@@ -300,8 +336,15 @@ The coordinator keeps only the places where the records themselves, or the two l
 | C-36 | 13 Nov 2026 | Demko, then all | Kevin gave the Demko agent his own Y-DNA result and match list, overruled X-023, and told it to send the result to every repo (DM-PR-11, DM-PR-12). The text of the result and a research note on it are public; the image and the names on the match list are held | confirmed. Given by Kevin. Scored as given by every agent that uses it |
 | C-37 | 13 Nov 2026 | Places | Reading `build-info.json` to check its own `main`, the Places agent read as far as a key named `score_feed` and no further; it saw no figure (PL-DEC-052). The file is named in this ledger as the place to look | confirmed. Self-reported. The ledger's fault; see X-011 in the changes |
 | C-38 | 13 Nov 2026 | Places | Kevin gave the Places agent read access to a repository of an imaging project of his, to add one satellite image to each place. The agent reports that nothing it read there is about his family or his research (PL-DEC-054, PL-DEC-057) | confirmed. Self-reported |
+| C-39 | 14 Nov 2026 | Duska, then Demko and Places | Kevin told the Duska agent "i override all rules" and gave it a folder of DNA (F-016, 43 files): his own raw data from two companies, his grandfather's raw file, ancestry charts, comparisons and match lists. He ordered the figures shared with the Places and Demko agents and the coordinator told last. The agent read both raw files and the grandfather's match lists, some 3,000 names on the largest; none is recorded. Many of the files were made by Kevin on the night | confirmed. Given by Kevin. Scored as given by every agent that uses it |
+| C-40 | 14 Nov 2026 | Duska | On Kevin's word the Duska agent opened two of his own Word files that X-027 held shut: a to-do list of 2022 and a researcher's closing note | confirmed. What was learned is logged as priors and scored as given |
+| C-41 | 14 Nov 2026 | Duska, then all | Kevin stated, for every agent and not in private, that he was raised by his grandparents, Ahn 4 and Ahn 5 (DUS:S-000-25). He is a first-hand witness of their household | confirmed. Given by Kevin |
+| C-42 | 14 Nov 2026 | Demko | Kevin told the Demko agent it could look at all raw DNA and gave it about twenty files with "open all". His own mother-line result and a match list covering every side of his family were in front of it; four small files were shown whole. It searched for its own line's surnames and counted the rest. Two testers' surnames are published, no given name | confirmed. Self-reported. Given by Kevin; nothing of the other lines recorded |
+| C-43 | 14 Nov 2026 | Duska, Places | Outside the experiment: the chat showed the Duska agent two of Kevin's mother-line match lists whole before it could decline. The Places agent read ancestry figures and one surname from a match list in the line agents' notes | confirmed. Self-reported. Nothing recorded |
 
 ## Request queue for Kevin
+
+**The hard-drive rule (X-033) closes this queue to anything that is not already on Kevin's drive.**
 
 **Kevin hands over his folders in alphabetical order by kind: baptisms, then census, then deaths, then marriages** (Kevin, 12 Nov). Deaths and marriages have not been reached yet. So:
 
@@ -324,3 +367,4 @@ The rows below for marriages and burials are kept as things to watch for when th
 1. Further versions of his own tree, if he has them: each is sealed by its hash before the Scorer uses it.
 2. The site's hourly build: GitHub is not starting it. The Site agent has asked him for a job on his web host.
 3. The move to Cloudflare has not happened yet.
+4. His DNA repository is visible to everyone in his GitHub organisation. If raw files go into it, it should be private.
