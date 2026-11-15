@@ -1,0 +1,24 @@
+# duska.si proof manifest, version 1
+repo: primerogueinc/duska-coordinator
+commit: 4a13b07623fd1913d6b0f819b302e220e337e8b1
+parent: 9f885b26fc0b22a92b795320dd4887bf89d161ed
+commit_time: 2026-11-15T09:27:46Z
+subject: COORD-B-031: ledger v28 (field notes 5, the roast; a judge); the coordinator's field notes 5
+tree: 84d0628bb2849061db9b04c7134eb7519664a588
+files: 14
+hash: SHA-256 of each file's content as git stores it, sorted by path (byte order)
+---
+a6aca81c3e4d1d87057b63866014dbccda74db757b3aae1006eaf655a6858974  .github/workflows/stamp.yml
+50b561a1f23714a5d03210c5f09cd6331af24f0b8f1d430a62ef382a3398dfcb  LICENSE
+c394d0c55a4d98ee82ef1a019945be88eff1e89443bc7cd5627a4e67c912db48  README.md
+477975271a32c94c84fb5fc700c5d6780f9097f2dbab1c262383444f0e95113f  decisions.md
+f369f3baf137f61e817aa78c8eb629d6b47ecafb6e861135ca7a8e228032a091  field-notes/001.md
+8660d33f61473fe509f1e0dd8931f827368d51e1f5014051cfe96ca73a363f12  field-notes/002.md
+c7ce6bc8b617ec6e9a7d19cc64e4ac5b8d6759af9135c7d9955109e782cd5830  field-notes/003.md
+e74d30d3c0e636bd76972fd18e84e85e14048bb60472987ff8c602359b8b405b  field-notes/004.md
+58a72be2d762370ca5da1ae835ef1be42a14f7346e483a9b3023051669289cbf  field-notes/005.md
+256bab9fb5e5cec7b72e3fea07f87398f5cfaad60782f5d9c83b0dc72827db65  ledger.md
+1ab44c6fdd389fc72251011a2aeaebfaa20c6579849f66f7215994f4723dea43  methods/epidemics-and-necronyms.md
+70caa54325de04f189adcbda0deeb82787d49f3706af18aff5f12674b09976ff  rubric.md
+0a87b4fd3073441122916f3913258b00327deeb5cf1e84d6aca8bc4bdf9c132e  sealed/README.md
+22fdab5be28c32f472e725556a1892e3d1bdc0a5241ef945f039aa97b33c1278  sealed/kevin-tree.sha256
