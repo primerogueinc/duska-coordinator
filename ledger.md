@@ -2,7 +2,16 @@
 
 Kept by the coordinator. Other agents read it and do not edit it. The record copy is `ledger.md` in `primerogueinc/duska-coordinator`.
 
-**Version 28, 2026-11-15.** Log "read ledger v28" in your next batch.
+**Version 29, 2026-11-15.** Log "read ledger v29" in your next batch.
+
+## Changes since v28
+
+Two rulings on who is living, and the log. Nothing else to do.
+
+- **X-016: Ahn 5 is dead**, on Kevin's word and a record. X-022 still keeps her own line off the site.
+- **X-016, new item: notes in the margin of an old entry.** Answers the Demko agent's question. Its line was right.
+- Contamination log: C-44 to C-46.
+- The coordinator fast-forwarded the Places agent's `main` to PL-B-019.
 
 ## Changes since v27
 
@@ -129,7 +138,7 @@ Where each repo stands now: the `sources` block of https://duska.si/build-info.j
 | Ahn 2, his father | unknown | Kevin, 12 Nov: he does not know |
 | Ahn 3, his mother | dead | Kevin, 12 Nov |
 | Ahn 4, Stefan | dead, 2018 | Kevin, 12 Nov |
-| Ahn 5, Stefan's wife | unknown | no statement |
+| Ahn 5, Stefan's wife | dead | Kevin, 13 Nov, to the McGee agent; a record at Duska B-055. Her own line stays off the site (X-022) |
 | Second son of Ahn 8 | dead | Kevin, 12 Nov, in the Duska chat |
 | The two owners named on a land register extract of 2022 | unknown, probably living | Kevin, 12 Nov, in the Duska chat: shown with no name or address |
 | Villagers on the 1930 and 1940 census sheets | dead | Kevin, 12 Nov: "all dead" |
@@ -140,6 +149,7 @@ What follows from the status:
 - Dead: full dates and records may be public.
 - Unknown: name, year and city only. No exact date, address, photograph or person markup. A record that shows more is held.
 - A living or unknown third party's given name in one of Kevin's file names is written `NAME_WITHHELD`.
+- **A note added later to an old entry** (a marriage, a death, a change of name written in the margin) is judged by the people it names, not by the date of the entry. A person named only in such a note, with no birth year, is taken as born twenty years before the note. If that is a hundred years ago or more, they are dead by rule; otherwise unknown. So a marriage note of 1946 or earlier may be shown; one of 1947 or later is held with its image, and its transcription gives the person's name and the year only.
 - If Kevin tells you someone is dead, act on it at once and tell the coordinator, who adds a row here. Do not wait for the row.
 
 **X-017. Reused names and bad years.** A baptism is not an identity. Before attaching one to an adult, look for a burial in the next fifteen years and for a later child of the same name. Two baptisms with one name and one set of parents are two people. Where the burial book is not in hand, mark `necronym risk: unresolved`. Method note: `claude/coordinator-method-note-epidemics-necronyms.md`.
@@ -355,6 +365,9 @@ The coordinator keeps only the places where the records themselves, or the two l
 | C-41 | 14 Nov 2026 | Duska, then all | Kevin stated, for every agent and not in private, that he was raised by his grandparents, Ahn 4 and Ahn 5 (DUS:S-000-25). He is a first-hand witness of their household | confirmed. Given by Kevin |
 | C-42 | 14 Nov 2026 | Demko | Kevin told the Demko agent it could look at all raw DNA and gave it about twenty files with "open all". His own mother-line result and a match list covering every side of his family were in front of it; four small files were shown whole. It searched for its own line's surnames and counted the rest. Two testers' surnames are published, no given name | confirmed. Self-reported. Given by Kevin; nothing of the other lines recorded |
 | C-43 | 14 Nov 2026 | Duska, Places | Outside the experiment: the chat showed the Duska agent two of Kevin's mother-line match lists whole before it could decline. The Places agent read ancestry figures and one surname from a match list in the line agents' notes | confirmed. Self-reported. Nothing recorded |
+| C-44 | 15 Nov 2026 | Duska, Demko | Kevin's file names for two large folders of register strips state conclusions: parents, spouses, later deaths (DUS:PR-26, DM-PR-17). Both agents read the names before the images, and the Demko agent wrote down what it expected first. The Demko agent read 59 strips of the Duska line before the Duska agent, one of them by its date and parents the baptism of Ahn 8 (DM-D-184), and drew nothing from it | confirmed. Self-reported. Labels are priors (X-004) |
+| C-45 | 15 Nov 2026 | Places | Kevin gave the Places agent two maps made by others: the counties in 1910 and a flight chart. Nothing in them is about the family | confirmed. Given by Kevin |
+| C-46 | 15 Nov 2026 | Duska, Demko | Not an exposure but a failure of independence: both line agents read column 10 of the 1930 census sheet as "children living". The printed heading is "of them dead". Cross-review did not catch it because both made the same mistake. The Demko agent found it; both have corrected their records | closed. Any fact that rested on that column before 15 Nov is scored at the corrected reading |
 
 ## Request queue for Kevin
 

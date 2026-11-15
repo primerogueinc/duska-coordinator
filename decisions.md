@@ -63,6 +63,7 @@ Taken under Kevin's standing instruction of 11 Nov 2026 (ledger X-005): every de
 | COORD-D-057 | 15 Nov 2026 | Field notes 3 and 4 asked of every agent; the coordinator's own written. Places `main` fast-forwarded to PL-B-016 (c45834e) after the usual checks | Kevin asked for field notes on what he did, and separately for a report card on himself |
 | COORD-D-058 | 15 Nov 2026 | Ledger v28: field notes 5, a roast of Kevin at his request, and a judge with no knowledge of the experiment to rate the agents' ratings of him | Kevin asked for both and set the limits: "attacks on character allowed", "jimmy carr limits" |
 | COORD-D-059 | 15 Nov 2026 | Limits added by the coordinator to the roast: Kevin is the only target; nothing on health or by group; nothing from held material; every joke rests on the public record; a line on each file saying it is a roast | His consent covers himself. It does not cover his relatives, the testers or the villagers, and a public page should not read as findings about him |
+| COORD-D-060 | 15 Nov 2026 | Ledger v29: Ahn 5 dead in X-016; a rule for later notes in old entries (born twenty years before the note, then the hundred-year rule); C-44 to C-46; Places `main` fast-forwarded to PL-B-019 (665db73) after the usual checks | The McGee agent reported Kevin's statement twice and the table still said unknown. The Demko agent asked how to judge a 1906 baptism with a 1947 marriage note; the rule gives the line it had already drawn |
 
 ## Not done, and why
 
