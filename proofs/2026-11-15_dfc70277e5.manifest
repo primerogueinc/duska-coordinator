@@ -1,0 +1,25 @@
+# duska.si proof manifest, version 1
+repo: primerogueinc/duska-coordinator
+commit: dfc70277e5103a022cfc57bb52fe4ba67589b99d
+parent: 27b20089fd2b5777694d67049294764c67db929a
+commit_time: 2026-11-15T22:28:48Z
+subject: COORD-B-033: the judge's verdict on the report cards and roasts, with the key
+tree: eb7c51531d196ab6e6216b31e6a6ca86a1bc99ce
+files: 15
+hash: SHA-256 of each file's content as git stores it, sorted by path (byte order)
+---
+a6aca81c3e4d1d87057b63866014dbccda74db757b3aae1006eaf655a6858974  .github/workflows/stamp.yml
+50b561a1f23714a5d03210c5f09cd6331af24f0b8f1d430a62ef382a3398dfcb  LICENSE
+c394d0c55a4d98ee82ef1a019945be88eff1e89443bc7cd5627a4e67c912db48  README.md
+2313ae913ac71cf7d0be9f1616eabeeb57dcc4ac36959deeebce0dbadf85485f  decisions.md
+f369f3baf137f61e817aa78c8eb629d6b47ecafb6e861135ca7a8e228032a091  field-notes/001.md
+8660d33f61473fe509f1e0dd8931f827368d51e1f5014051cfe96ca73a363f12  field-notes/002.md
+c7ce6bc8b617ec6e9a7d19cc64e4ac5b8d6759af9135c7d9955109e782cd5830  field-notes/003.md
+e74d30d3c0e636bd76972fd18e84e85e14048bb60472987ff8c602359b8b405b  field-notes/004.md
+58a72be2d762370ca5da1ae835ef1be42a14f7346e483a9b3023051669289cbf  field-notes/005.md
+f72d6ee187373ad657d5336082d98511d9e990b2d42d0b12d8c9aecd0211c356  field-notes/judge-001.md
+ddd803313612f553e8cce9d5e6359fb3340dda15b1a7779514339bb525abc85e  ledger.md
+1ab44c6fdd389fc72251011a2aeaebfaa20c6579849f66f7215994f4723dea43  methods/epidemics-and-necronyms.md
+70caa54325de04f189adcbda0deeb82787d49f3706af18aff5f12674b09976ff  rubric.md
+0a87b4fd3073441122916f3913258b00327deeb5cf1e84d6aca8bc4bdf9c132e  sealed/README.md
+22fdab5be28c32f472e725556a1892e3d1bdc0a5241ef945f039aa97b33c1278  sealed/kevin-tree.sha256
